@@ -1,20 +1,22 @@
 ![alt text](img/7.jpg)
 
-### hAi (AI assistant for computer control) | [Project Website](https://hi-ai.app/)
+### hAi (local-first AI assistant for computer control) | [Project Website](https://hi-ai.app/)
 
-The **hAi** project is aimed at creating an advanced AI assistant for the desktop.
+**hAi** is my personal open-source R&D project focused on building a local-first desktop AI assistant.
 
 **Key Idea:**
-To create an assistant that has a cognitive memory model (sensory, short-term, long-term), tracks user activity on the computer (using ActivityWatch), and provides flexible options for interaction and extension.
+To create an assistant that has a cognitive memory model, tracks user activity on the computer, supports voice interaction, works with local and cloud models, and can be extended through tools and protocols such as MCP.
 
 **Architecture and Stack:**
-The system is built on the principle of a **distributed local application**. The core, based on **Python/FastAPI** with **LangChain**, manages the logic, while specialized services like **LiveKit** (voice communication) and **ActivityWatch** (monitoring) operate as independent components. This ensures stability and loose coupling. Additionally, a RAG approach allows for extensive personalized memory.
+The system is built as a **distributed local application**. The core, based on **Python/FastAPI**, manages agent logic, memory, model routing, and tool use. Specialized services such as **LiveKit** for voice communication and **ActivityWatch** for desktop activity context run as independent components.
+
+The project is also my practical environment for experimenting with local LLMs, Mac Studio inference optimization, agent UX, contextual memory, MCP tool integrations, and AI-assisted development workflows.
 
 - **Backend:** Python, FastAPI, LangChain, SQLAlchemy.
 - **Frontend:** Electron, React, TypeScript.
 - **AI:** Integration with various LLMs (OpenAI, Gemini, Ollama), Computer Vision (Moondream), and STT/TTS solutions (Whisper, Piper).
 - **DB**: SQLite, LanceDB.
-- **Protocols:** REST, SSE, and a custom **MCP (Model Context Protocol)** for connecting external tools.
+- **Protocols:** REST, SSE, and **MCP (Model Context Protocol)** for connecting external tools.
 
 **My Role:**
-I serve as the **Lead** and **Backend Developer**. I designed the architecture, manage a team of 6 people (2xBackend, 2xFrontend, Analyst, Designer), and establish development processes (JIRA, GitOps).
+I am the founder and lead developer of the project. I designed the architecture, implemented the backend core, built the agent and memory concepts, integrated local and cloud models, and use the project as a real testbed for AI assistant development.

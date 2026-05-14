@@ -1,83 +1,108 @@
-Team Lead / Backend Lead (Python, LLM) 
+# Vitaliy Kuzmin
 
-`Telegram:` [@MostYes](https://t.me/MostYes) `Email:` [viton930@gmail.com](mailto:viton930@gmail.com) `Phone:` [+7 980 463-55-05](tel:+79804635505) `remote work`
+**Lead AI Engineer / AI Agent Architect**
 
-### Key Information
+`Telegram:` [@MostYes](https://t.me/MostYes) `Email:` [viton930@gmail.com](mailto:viton930@gmail.com) `Phone:` [+7 980 463-55-05](tel:+79804635505) `Remote / B2B`
 
-Team Lead with 8+ years in development and over 4 years of experience managing cross-functional teams. For the last 2 years, I have been focused on creating products using LLMs. Deep expertise in Python, designing microservice architectures, and implementing Agile processes (Scrum/Kanban). Successfully built teams from scratch, hired, and developed engineers (from Junior to Senior). I am looking for an opportunity to apply my experience to create AI assistants and contribute to the development of a technological product.
+### Summary
+
+Lead AI Engineer and Team Lead with 8+ years of software engineering experience, including 4+ years leading cross-functional teams and 2+ years focused on LLM products, AI assistants, RAG systems, local LLM infrastructure, and multi-agent orchestration.
+
+I grew from a full-stack developer into a Team Lead at BL-Group, where I led enterprise software, ML, and automation projects. After that, I moved into AI-focused outsourcing and built production-oriented LLM applications for clients, including automated content publishing and AI-assisted design workflows. I am currently leading the development of an enterprise AI assistant platform for the Axioma asset management system in the energy sector.
+
+My current specialization is building practical AI assistants and agentic platforms that work with real business systems: RAG over domain knowledge, SQL agents, workflow automation, tool use, local models, privacy-focused deployments, and observability for LLM systems.
 
 ---
 
 ### Work Experience
 
-**Tech Lead**
-<br>
-*hAi | 2023 - present*
+**Lead AI Engineer / AI Platform Architect**  
+*InterProCom | 2025 - Present*
 
-- Designed the architecture and am leading the development of a desktop AI assistant (Python, FastAPI, LangGraph, LiveKit).
-- Manage a cross-functional team of 6 people, having established development processes (Scrum, GitHub Projects, DORA).
-- Implemented AI agent orchestration, ensuring seamless operation with SOTA models (OpenAI, Gemini, Anthropic, Grok) and a local stack (Ollama, whisper.cpp, piper-tts).
-- Implemented a secure sandbox for executing AI scripts and validating LLM traffic (Guardrails AI, AST, sys.addaudithook).
-- Ensured support for the MCP (Model Context Protocol) standard for flexible extension of the assistant's capabilities.
-- Implemented Adaptive RAG using vector databases for deep personalization of responses (SQLite, LanceDB, FastEmbed).
-- Built an end-to-end observability system to monitor costs and generation quality (Langfuse, OpenTelemetry, Loki, Prometheus, Grafana).
-- Automated quality control and testing: implemented a test pyramid (pytest, Playwright), semantic validation (DeepEval), and static analysis (ruff, pyright).
-- Set up CI/CD and secure distribution: automated pipelines and protection for cross-platform builds (GitHub Actions, uv, tox, PyInstaller, Cython).
+- Lead the development of an enterprise AI assistant platform for Axioma, an asset management system used in the energy domain.
+- Designed a multi-agent architecture that helps users navigate the system, answer domain questions, and perform assisted creation and editing of business objects.
+- Built several complementary AI capabilities: domain RAG pipelines, SQL sub-agent for structured data access, norm-control workflows, and tool-based integrations with enterprise APIs.
+- Deployed and optimized local LLM infrastructure on company servers to support private, on-premise usage and reduce dependency on external providers.
+- Worked with open-source LLM infrastructure and orchestration tools to build a production-grade AI platform rather than isolated chat prototypes.
+- Tech stack: Python, FastAPI, LangGraph, LangChain, LlamaIndex, RAG, SQL agents, LiteLLM, Langfuse, local LLMs, Ollama, Docker, PostgreSQL, REST APIs.
 
+**Lead AI Engineer / AI Consultant**  
+*AI Outsourcing Projects | 2024 - 2025*
 
-**Lead Software Engineer / Team Lead**
-<br>
-*BL-Group (Center for Innovative Development), Moscow | 2021 - 2023*
+- Led AI projects for clients, turning early ideas and prototypes into working LLM-powered applications.
+- Designed an AI content automation platform that accepted news drafts from multiple channels, including email and Telegram, transformed them into publication-ready articles, and published them to a CMS through an API.
+- Added support for social media distribution, allowing the same AI workflow to prepare and adapt content for several publishing destinations.
+- Built an AI-assisted design plugin prototype for a design-focused company, automating layout generation and editing operations inside an existing creative workflow.
+- Worked across product discovery, architecture, backend implementation, LLM prompting, integrations, and delivery planning.
+- Tech stack: Python, FastAPI, OpenAI API, Telegram API, REST APIs, CMS integrations, n8n, prompt engineering, RAG, LangChain.
 
-- Led the development of several products, managing a team of up to 10 people (C++, Python, Frontend, QA, Design, Analytics).
-- Organized development processes for the Light in Night Pro project from scratch: implemented Agile methodologies (sprints in Gitlab), set up CI/CD, and hired 5 key specialists.
-- Designed and developed a backend in Python (Docker, PostgreSQL) for online calculators, which increased order conversion by 20%.
-- Developed an ML system (LightGBM) for planning street lighting reconstruction, which allowed for the automation of tender proposal preparation.
-- Initiated and implemented the use of LLMs (Gemini, ChatGPT) to automate internal processes (UI testing, content publishing), which significantly accelerated task completion.
+**Founder / Lead Developer**  
+*hAi, personal open-source AI assistant project | 2023 - Present*
 
-**Lead Software Engineer**
-<br>
-*BL-Group, Moscow | 2018 - 2021*
+- Designed and developed hAi, a local-first desktop AI assistant focused on personal context, memory, voice interaction, and tool use.
+- Built the backend architecture around Python/FastAPI, agent orchestration, local services, and integrations with desktop activity tracking.
+- Implemented support for local and cloud models, including OpenAI, Anthropic, Gemini, Grok, Ollama, whisper.cpp, and local TTS/STT components.
+- Added MCP-based extension capabilities so the assistant can connect to local tools, files, and external systems.
+- Used the project as a real R&D environment for local LLM workflows, Mac Studio inference optimization, AI coding assistants, memory systems, and agent UX.
+- Tech stack: Python, FastAPI, LangGraph, LangChain, LiveKit, React, Electron, SQLite, LanceDB, ActivityWatch, MCP, Ollama.
 
-- Grew from a developer to the project manager of the "Lighting Asset Inventory" project.
-- Led a small team (designer, tester, 1C developer), responsible for the full development cycle of the software suite (Android, Electron, JS, Node.js).
-- Proposed and implemented a solution that fully automated a key business process, eliminating dependence on third-party contractors and manual labor.
+**Lead Software Engineer / Team Lead**  
+*BL-Group, Center for Innovative Development | 2021 - 2023*
+
+- Led several engineering initiatives and managed a team of up to 10 people across C++, Python, frontend, QA, design, and analytics.
+- Organized the development process for Light in Night Pro from an early technical demo into a structured product workflow: backlog, sprints, GitLab process, CI/CD, releases, documentation, and team hiring.
+- Designed and developed Python backend services for online lighting calculators, contributing to a 20% increase in order conversion.
+- Built an ML module based on LightGBM for planning street lighting reconstruction and automating tender proposal preparation.
+- Introduced LLM-based internal automation for UI testing, content generation, and development acceleration.
+- Tech stack: Python, C++, Docker, PostgreSQL, GitLab CI/CD, LightGBM, Elasticsearch, Kibana, Grafana.
+
+**Software Engineer / Project Lead**  
+*BL-Group | 2018 - 2021*
+
+- Grew from software engineer to project lead for the Lighting Asset Inventory software suite.
+- Led the full development cycle of a system that automated field data collection and reduced dependency on manual work and third-party contractors.
+- Built and coordinated components across Android, Electron, JavaScript, Node.js, 1C integrations, and internal business workflows.
+- Worked closely with stakeholders, QA, designers, and domain experts to turn operational requirements into working software.
 
 ---
 
-### Projects
+### Selected Projects
 
-- [**hAi (AI Assistant)**](hAi.md) — Design and development of an intelligent AI assistant.
-- [**Light in Night**](Light-in-Night.md) — Organization of development and creation of a desktop application for lighting design.
-- [**Online Calculators**](Web-Services.md) — Backend development and leadership in creating online services to increase conversion.
+- [**Enterprise AI Assistant for Axioma**](Enterprise-AI-Assistant.md) — AI platform for asset management workflows, RAG, SQL agents, norm-control, and local LLM deployment.
+- [**AI Content Automation Platform**](AI-Content-Automation.md) — Multi-channel AI publishing workflow for transforming drafts into CMS and social media content.
+- [**AI Design Assistant Plugin**](AI-Design-Assistant.md) — Prototype of an AI plugin for layout generation and editing inside a design workflow.
+- [**hAi (Local AI Assistant)**](hAi.md) — Personal open-source AI assistant with memory, voice, local models, and MCP-based tool use.
+- [**Light in Night Pro**](Light-in-Night.md) — Team leadership and product development for professional lighting design software.
 - [**Reconstruction**](Reconstruction.md) — ML module for planning urban lighting reconstruction.
-- [**Lighting Asset Inventory**](Inventarisation.md) — Full development cycle of a software suite for business process automation.
-- [**MSL Mapping**](MSL.Mapping.md) — Development of a system for collecting and visualizing geodata for lighting research.
-- [**BL Bio**](BL-Bio.md) — MVP of a web application for monitoring and managing greenhouses.
+- [**Lighting Asset Inventory**](Inventarisation.md) — Full-cycle software suite for field data collection and business process automation.
 
 ---
 
 ### Skills
 
-- **Management:** Team leadership (10+ people), Agile (Scrum, Kanban), hiring and employee development, roadmap creation, product management, conducting seminars and presentations, Jira, Notion, Gitlab
-- **Backend:** Python (FastAPI, LangChain), C++, Docker, PostgreSQL, SQLAlchemy, Redis, REST, gRPC.
-- **AI & ML:** LightGBM, OpenAI API, Gemini, LangChain, RAG, LanceDB, LiveKit.
+- **AI Engineering:** LangGraph, LangChain, LlamaIndex, RAG, multi-agent systems, SQL agents, MCP, prompt engineering, agent tool use, evaluation workflows.
+- **Local & Private AI:** local LLM deployment, Ollama, LiteLLM, on-premise inference, Mac Studio optimization, privacy-focused AI architecture.
+- **LLM Ops:** Langfuse, OpenTelemetry, tracing, cost monitoring, quality evaluation, DeepEval, prompt/version observability.
+- **Backend:** Python, FastAPI, SQLAlchemy, REST, gRPC, microservices, Docker, PostgreSQL, Redis.
+- **Automation & Integration:** n8n, Telegram API, CMS APIs, enterprise API integration, workflow automation.
+- **Voice & Realtime:** LiveKit, STT/TTS pipelines, whisper.cpp, Piper, voice assistant architecture.
+- **Leadership:** team leadership, hiring, mentoring, roadmap planning, Agile/Scrum/Kanban, product discovery, technical specifications.
 - **Frontend:** React, TypeScript, Electron.
-- **DevOps & Tools:** CI/CD (Gitlab Actions), Git, Elasticsearch, Kibana, Grafana, Prometheus, OpenShift, Redis, ClickHouse
+- **ML & Data:** LightGBM, vector databases, LanceDB, FastEmbed, data processing pipelines.
 
 ---
 
 ### Education
 
-**Master's Degree, Electronics and Nanoelectronics**   
-MPEI (Moscow Power Engineering Institute) | 2016 - 2018.  
+**Master's Degree, Electronics and Nanoelectronics**  
+MPEI, Moscow Power Engineering Institute | 2016 - 2018
 
-**Bachelor's Degree, Electronics and Nanoelectronics**   
-MPEI (Moscow Power Engineering Institute) | 2012 - 2016.
+**Bachelor's Degree, Electronics and Nanoelectronics**  
+MPEI, Moscow Power Engineering Institute | 2012 - 2016
 
 ---
 
 ### Languages
 
 - **Russian** — Native
-- **English** — Technical (fluent in reading documentation)
+- **English** — Technical / professional documentation
