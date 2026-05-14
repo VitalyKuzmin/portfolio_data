@@ -29,11 +29,12 @@ Senior AI Architect and Full Stack Engineer with 8+ years of experience building
 - Tech Stack: Python, FastAPI, LangGraph, LangChain, LiveKit, React, Electron, SQLite, LanceDB, ActivityWatch, MCP, Ollama.
 
 **Lead AI Engineer**  
-*AI Outsourcing Projects | 2024 - 2025*
+*AI Outsourcing Company | 2024 - 2025*
 
-- Led AI initiatives for B2B clients, moving ideas and prototypes toward working LLM-powered applications.
-- **[AI Content Automation Platform](AI-Content-Automation.md):** Architected an automated publishing system that ingested raw drafts via email and Telegram, used LLMs to structure and edit news content, and published final articles to a CMS through an API.
-- **[AI Design Assistant](AI-Design-Assistant.md):** Developed a prototype of an AI-powered plugin for layout generation and editing inside a design workflow.
+- Led the development of an [AI Content Automation Platform](AI-Content-Automation.md) for a B2B client, moving the idea from an early prototype toward a working LLM-powered product.
+- Architected an automated publishing workflow that ingested raw news drafts from multiple channels, including email and Telegram.
+- Designed the LLM processing pipeline for structuring, rewriting, editing, formatting, and preparing publication metadata.
+- Integrated the platform with a client CMS through an API and prepared the workflow for social media distribution.
 - Tech Stack: Python, FastAPI, OpenAI API, Telegram API, REST APIs, CMS integrations, n8n, LangChain, prompt engineering.
 
 **Team Lead / Lead Software Engineer**  
