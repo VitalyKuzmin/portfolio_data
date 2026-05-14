@@ -2,7 +2,7 @@
 
 **Senior AI Architect / Lead AI Engineer**
 
-`Telegram:` [@MostYes](https://t.me/MostYes) | `Email:` [viton930@gmail.com](mailto:viton930@gmail.com) | `Phone:` [+7 980 463-55-05](tel:+79804635505) | `Remote / B2B`
+`Telegram:` [@MostYes](https://t.me/MostYes) | `Email:` [viton930@gmail.com](mailto:viton930@gmail.com) | `LinkedIn:` [Vitaliy Kuzmin](https://www.linkedin.com/in/vitaliy-kuzmin-b61763402) | `Location:` Tbilisi, Georgia | `Open to:` Remote / B2B
 
 **Summary**
 
@@ -58,8 +58,3 @@ Senior AI Architect and Full Stack Engineer with 8+ years of experience building
 
 - Master's Degree, Electronics and Nanoelectronics | 2016 - 2018
 - Bachelor's Degree, Electronics and Nanoelectronics | 2012 - 2016
-
-### Languages
-
-- **Russian** — Native
-- **English** — Technical / professional documentation
