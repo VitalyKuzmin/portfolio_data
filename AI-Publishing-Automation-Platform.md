@@ -1,4 +1,4 @@
-# AI Content Automation Platform
+# AI Publishing Automation Platform
 
 An AI-powered publishing workflow that turns raw news drafts into publication-ready content for a website and social media channels.
 

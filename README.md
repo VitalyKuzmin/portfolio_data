@@ -31,7 +31,7 @@ Senior AI Architect and Full Stack Engineer with 8+ years of experience building
 **Lead AI Engineer**  
 *AI Outsourcing Company | 2024 - 2025*
 
-- Led the development of an [AI Content Automation Platform](AI-Content-Automation.md) for a B2B client, moving the idea from an early prototype toward a working LLM-powered product.
+- Led the development of an [AI Publishing Automation Platform](AI-Publishing-Automation-Platform.md) for a B2B client, moving the idea from an early prototype toward a working LLM-powered product.
 - Architected an automated publishing workflow that ingested raw news drafts from multiple channels, including email and Telegram.
 - Designed the LLM processing pipeline for structuring, rewriting, editing, formatting, and preparing publication metadata.
 - Integrated the platform with a client CMS through an API and prepared the workflow for social media distribution.
