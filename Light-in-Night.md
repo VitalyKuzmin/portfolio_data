@@ -1,6 +1,6 @@
 ![alt text](img/6.jpg)
 
-### Light in Night Pro (professional lighting calculation and design) | [Project Website](https://l-i-n.ru)  
+### Light in Night Pro (professional lighting calculation and design)
 
 The **Light in Night Pro** project is a comprehensive desktop application for professional design of indoor and outdoor lighting.
 
