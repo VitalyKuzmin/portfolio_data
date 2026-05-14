@@ -1,6 +1,6 @@
-# Enterprise AI Assistant for Axioma
+# Axioma AI
 
-An enterprise AI assistant platform for Axioma, an asset management system used in the energy domain.
+An enterprise AI assistant platform for the Axioma asset management system used in the energy domain.
 
 ### Goal
 

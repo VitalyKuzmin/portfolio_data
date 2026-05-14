@@ -1,20 +1,20 @@
 ![alt text](img/4.jpg)
 
-### БЛ Био (Мониторинг теплиц) | [Сайт проекта](https://bl-bio.ru)  
+### BL Bio (Greenhouse Monitoring) | [Project Website](https://bl-bio.ru)  
 
-Веб-приложение для мониторинга и управления параметрами в теплицах (освещение, полив, удобрения).
+A web application for monitoring and managing parameters in greenhouses (lighting, irrigation, fertilizers).
 
-**Задача:**
-В сжатые сроки реализовать MVP продукта для управления "умными" теплицами.
+**Task:**
+To implement an MVP product for managing "smart" greenhouses under tight deadlines.
 
-**Решение:**
-За основу были взяты промышленные контроллеры **Wiren Board**, которые поставлялись с open-source веб-приложением. Я доработал это приложение и обернул его в веб-портал с авторизацией. Пользователи могли получать доступ к своим теплицам, управлять параметрами и просматривать видео с камер.
+**Solution:**
+The solution was based on industrial **Wiren Board** controllers, which came with an open-source web application. I customized this application and wrapped it in a web portal with authorization. Users could access their greenhouses, manage parameters, and view video from cameras.
 
-**Архитектура и стек:**
-- **Контроллер:** Wiren Board, взаимодействующий с оборудованием по протоколу Modbus.
-- **Backend:** PHP-сервер, который общался с контроллером через MQTT и предоставлял API для фронтенда.
-- **Frontend:** Веб-интерфейс на **Angular**, который я дорабатывал.
-- **База данных:** PostgreSQL для хранения данных.
+**Architecture and Stack:**
+- **Controller:** Wiren Board, communicating with equipment via the Modbus protocol.
+- **Backend:** A PHP server that communicated with the controller via MQTT and provided an API for the frontend.
+- **Frontend:** A web interface on **Angular**, which I customized.
+- **Database:** PostgreSQL for data storage.
 
-**Моя роль:**
-На этом проекте я выступал в роли **full-stack разработчика** и **аналитика**. Я написал ТЗ, доработал backend на PHP и frontend на Angular для реализации требуемого функционала.
+**My Role:**
+On this project, I acted as a **full-stack developer** and **analyst**. I wrote the technical specifications and customized the PHP backend and Angular frontend to implement the required functionality.

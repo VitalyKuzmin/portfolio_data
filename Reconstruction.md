@@ -1,32 +1,32 @@
 ![alt text](img/8.jpg)
 
-### Реконструкция (ML-модуль для реконструкции уличного освещения)
+### Reconstruction (ML module for street lighting reconstruction)
 
-Проект, объединяющий данные из [**Инвентаризации**](Inventarisation.md) и [**МСЛ Картирования**](MSL.Mapping.md) для создания "цифрового двойника" городского освещения. Цель — предсказывать освещенность улиц и автоматически подбирать оптимальные варианты для реконструкции.
+A project that combines data from [**Inventory**](Inventarisation.md) and [**MSL Mapping**](MSL.Mapping.md) to create a "digital twin" of urban lighting. The goal is to predict street illuminance and automatically select optimal options for reconstruction.
 
-**Задача:**
-Разработать инструмент, который бы автоматически:
-- Предсказывал освещенность на участках по данным инвентаризации.
-- Выявлял зоны, не соответствующие нормативам.
-- Рекомендовал оптимальные LED-замены для старых светильников.
-- Рассчитывал экономический эффект и срок окупаемости реконструкции.
-- Позволял быстро готовить точную документацию для тендеров.
+**Task:**
+To develop a tool that would automatically:
+- Predict illuminance in areas based on inventory data.
+- Identify zones that do not comply with standards.
+- Recommend optimal LED replacements for old luminaires.
+- Calculate the economic effect and payback period of the reconstruction.
+- Allow for the quick preparation of accurate documentation for tenders.
 
-**Архитектура и стек:**
-- **ML-модель:** Для предсказания освещенности была использована модель на **LightGBM**, обученная на датасете из 100k+ примеров (данные мобильной лаборатории + инвентаризация).
-- **Данные:** Обработка и сопоставление данных освещенности и инвентаризации по GPS координатам.
-- **Система рекомендаций:** Отдельная модель рекомендовала оптимальные LED-аналоги, мощность и тип КСС.
-- **Аналитика:** Модуль для автоматическоРеконструкция — ML-модель для оценки и проектирования уличного освещенияго расчета экономической эффективности и сроков окупаемости.
-- **Отчет:** Модуль для генерации результатов расчета в виде отчета для включения в тендерную документацию
+**Architecture and Stack:**
+- **ML Model:** An **LightGBM** model was used to predict illuminance, trained on a dataset of 100k+ examples (mobile laboratory data + inventory).
+- **Data:** Processing and matching of illuminance and inventory data by GPS coordinates.
+- **Recommendation System:** A separate model recommended optimal LED analogues, power, and light distribution type (KSS).
+- **Analytics:** A module for automatic calculation of economic efficiency and payback periods.
+- **Report:** A module for generating calculation results as a report for inclusion in tender documentation.
 
-**Результат:**
-- Создан модельпредсказывания городского освещения, что устранило необходимость в дорогостоящих натурных замерах.
-- Автоматизировано выявление проблемных участков сети, что позволило приоритизировать работы по реконструкции.
-- Компания получила значительное конкурентное преимущество на тендерах за счет скорости и точности подготовки проектных предложений.
+**Result:**
+- A model for predicting urban lighting was created, eliminating the need for expensive field measurements.
+- The identification of problematic network sections was automated, allowing for the prioritization of reconstruction work.
+- The company gained a significant competitive advantage in tenders due to the speed and accuracy of preparing project proposals.
 
-**Моя роль:**
-Я выступал в роли **технического лида** и отвечал за:
-- Проектирование архитектуры решения.
-- Разработку алгоритмов обработки данных и формирования датасета для ML.
-- Создание и интеграцию модели рекомендаций.
-- Коммуникацию с бизнес-стейкхолдерами и подготовку методологии для тендеров.
+**My Role:**
+I acted as **technical lead** and was responsible for:
+- Designing the solution's architecture.
+- Developing data processing algorithms and creating the dataset for ML.
+- Creating and integrating the recommendation model.
+- Communicating with business stakeholders and preparing the methodology for tenders.

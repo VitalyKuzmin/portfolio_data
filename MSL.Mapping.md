@@ -1,24 +1,24 @@
 ![alt text](img/2.jpg)
 
-### МСЛ Картирование (анализ и визуализация геоданных) | [Сайт проекта](https://vnisi.ru/ispytaniya/mobile/)  
+### MSL Mapping (analysis and visualization of geodata) | [Project Website](https://vnisi.ru/ispytaniya/mobile/)  
 
-Проект, выполненный в рамках магистерской дипломной работы совместно с ВНИСИ им. Вавилова. Целью была разработка системы для сбора, обработки и визуализации данных с мобильной светотехнической лаборатории (МСЛ).
+A project carried out as part of a master's thesis in collaboration with the Vavilov All-Russian Research Institute for Light Sources (VNISI). The goal was to develop a system for collecting, processing, and visualizing data from a mobile lighting laboratory (MSL).
 
-**Задача:**
-Создать программный комплекс, который бы обрабатывал бинарные данные с различных датчиков автомобиля (освещенность, скорость, GPS), сохранял их в базу данных 1С и отображал на интерактивной веб-карте.
+**Task:**
+To create a software suite that would process binary data from various car sensors (illuminance, speed, GPS), save it to a 1C database, and display it on an interactive web map.
 
-**Архитектура и стек:**
-- **Сбор и обработка данных:** Desktop-приложение на **C++/MFC** для обработки сырых данных с датчиков.
-- **Хранение:** Данные передавались в базу **1С**.
-- **Визуализация:** Веб-интерфейс на **JavaScript** с использованием **Google Maps API** и **Bootstrap** получал данные из 1С через API на PHP и наносил их на карту.
+**Architecture and Stack:**
+- **Data Collection and Processing:** A **C++/MFC** desktop application for processing raw sensor data.
+- **Storage:** Data was transferred to a **1C** database.
+- **Visualization:** A web interface using **JavaScript**, **Google Maps API**, and **Bootstrap** retrieved data from 1C via a PHP API and plotted it on the map.
 
-**Результат:**
-Система позволила объединить на одной карте огромное количество измерений, что дало возможность оценивать состояние освещения в масштабах целых городов и проводить глобальные исследования.
+**Result:**
+The system made it possible to combine a huge number of measurements on a single map, allowing for the assessment of lighting conditions on the scale of entire cities and conducting global research.
 
-**Моя роль:**
-Я был основным разработчиком проекта, отвечая за:
-- Написание математических алгоритмов.
-- Разработку desktop-приложения на **C++**.
-- Создание frontend-части на **JavaScript**.
-- Частичное написание ТЗ и тестирование.
+**My Role:**
+I was the main developer on the project, responsible for:
+- Writing mathematical algorithms.
+- Developing the **C++** desktop application.
+- Creating the **JavaScript** frontend.
+- Partially writing technical specifications and testing.
 

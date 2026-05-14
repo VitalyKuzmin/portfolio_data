@@ -1,20 +1,20 @@
 ![alt text](img/5.jpg)
 
-### Онлайн-калькуляторы (веб сервисы для расчета освещения) | [Сайт проекта](https://galad.ru/service/projects/)  
+### Online Calculators (web services for lighting calculation) | [Project Website](https://galad.ru/service/projects/)  
 
-Проект представлял собой серию **онлайн-сервисов** на сайте Galad.ru, предназначенных для расчета различных сценариев освещения (дорожного, офисного, тепличного и т.д.).
+The project was a series of **online services** on the Galad.ru website, designed for calculating various lighting scenarios (road, office, greenhouse, etc.).
 
-**Бизнес-цель:**
-Привлечь новых клиентов на сайт и увеличить конверсию в заказы светотехнического оборудования.
+**Business Goal:**
+To attract new clients to the website and increase conversion into orders for lighting equipment.
 
-**Решение и результаты:**
-Я предложил и реализовал набор онлайн-калькуляторов, объединенных личным кабинетом. Пользователи могли сохранять проекты, делиться ими и формировать отчеты в PDF, а также сразу оформлять заказ на используемое оборудование.
-- **Результат:** Конверсия в заказы увеличилась на **20%**.
+**Solution and Results:**
+I proposed and implemented a set of online calculators integrated with a personal account. Users could save projects, share them, generate PDF reports, and immediately place orders for the equipment used.
+- **Result:** Conversion to orders increased by **20%**.
 
-**Архитектура и стек:**
-Backend был реализован на **Python** в виде сервисов, работающих в **Docker**. В качестве базы данных использовался **PostgreSQL**. Логи собирались в **Elasticsearch/Kibana**.
+**Architecture and Stack:**
+The backend was implemented in **Python** as services running in **Docker**. **PostgreSQL** was used as the database. Logs were collected in **Elasticsearch/Kibana**.
 
-**Моя роль:**
-- **Tech Lead:** Организовал процесс разработки с нуля, нанял Frontend-разработчика и управлял командой (дизайнер, 2 frontend, тестировщик, 1С, PHP, Python).
-- **Backend-разработчик:** Спроектировал и написал систему микросервисов.
-- **Аналитик:** Составил техническое задание на разработку.
+**My Role:**
+- **Tech Lead:** Organized the development process from scratch, hired a Frontend developer, and managed the team (designer, 2 frontend, tester, 1C, PHP, Python).
+- **Backend Developer:** Designed and wrote the microservices system.
+- **Analyst:** Drew up the technical specifications for development.

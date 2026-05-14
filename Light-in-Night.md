@@ -1,17 +1,17 @@
 ![alt text](img/6.jpg)
 
-### Light in Night Pro (профессиональный расчет и проектирование освещения) | [Сайт проекта](https://l-i-n.ru)  
+### Light in Night Pro (professional lighting calculation and design) | [Project Website](https://l-i-n.ru)  
 
-Проект **Light in Night Pro** — это комплексное desktop-приложение для профессионального проектирования внутреннего и наружного освещения.
+The **Light in Night Pro** project is a comprehensive desktop application for professional design of indoor and outdoor lighting.
 
-**Задача:**
-Мне было поручено взять проект на стадии "техно-демки" с неорганизованными процессами и превратить его в полноценный продукт.
+**Task:**
+I was tasked with taking the project from a "tech-demo" stage with disorganized processes and turning it into a full-fledged product.
 
-**Что было сделано:**
-1.  **Организация процессов:** Собрал требования, написал ТЗ, внедрил Gitlab Issues для ведения задач и настроил связь ТЗ и ISSUE. Разработал план выпуска версий и сформировал бэклог, вывел ститистику выполнения задач.
-2.  **Формирование команды:** Собрал команду, наняв тестировщика, UX/UI-дизайнеров, Backend и Frontend-разработчиков.
-3.  **Техническое руководство:** Управлял командой из 10+ человек (C++, Python, Frontend, DevOps, QA, Design). Настроил сбор логов и метрик через Elasticsearch/Kibana/Grafana. Разрабатывал backend-модули на Python.
-4.  **Внедрение AI:** Инициировал использование LLM для автоматизации UI-тестирования и ускорения разработки (aider).
+**What was done:**
+1.  **Process Organization:** Gathered requirements, wrote technical specifications, implemented Gitlab Issues for task management, and linked the specifications to issues. Developed a version release plan, created a backlog, and generated task completion statistics.
+2.  **Team Formation:** Assembled a team by hiring a tester, UX/UI designers, and Backend and Frontend developers.
+3.  **Technical Leadership:** Managed a team of 10+ people (C++, Python, Frontend, DevOps, QA, Design). Set up log and metric collection using Elasticsearch/Kibana/Grafana. Developed backend modules in Python.
+4.  **AI Implementation:** Initiated the use of LLMs to automate UI testing and accelerate development (aider).
 
-**Моя роль:**
-Выступал в роли **Team Lead** и **Продуктового аналитика**. Отвечал за аналитику, написание ТЗ, планирование, разработку backend-части и общее руководство проектом.
+**My Role:**
+I acted as **Team Lead** and **Product Analyst**. I was responsible for analytics, writing technical specifications, planning, backend development, and overall project management.

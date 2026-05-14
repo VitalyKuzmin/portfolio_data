@@ -25,12 +25,14 @@
             "id": "10acf9cecad366e1",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.10.6"
+                "file": "Inventarisation.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
+              "icon": "lucide-file",
+              "title": "Inventarisation"
             }
           }
         ],
@@ -199,13 +201,18 @@
   "active": "10acf9cecad366e1",
   "lastOpenFiles": [
     "MSL.Mapping.md",
+    "hAi.md",
+    "BL-Bio.md",
+    "Axioma AI.md",
+    "AI-Design-Assistant.md",
+    "AI-Content-Automation.md",
+    "1_Main.md",
+    "README.md",
     "Light-in-Night.md",
     "Inventarisation.md",
     "Web-Services.md",
-    "README.md",
-    "BL-Bio.md",
+    "Reconstruction.md",
     "feed.md",
-    "hAi.md",
     "img/9.jpg",
     "img/8.jpg",
     "img/7.jpg",
@@ -231,13 +238,6 @@
     "prjs/Light-in-Night.md",
     "prjs/hAi.md",
     "prjs/BL-Bio.md",
-    "prjs/Inventarisation.md",
-    "path.md",
-    "portfolio/README.md",
-    "resume.md",
-    "tutu/resume.md",
-    "tutu/vakansy.md",
-    "tutu/plan.md",
-    "reference.md"
+    "prjs/Inventarisation.md"
   ]
 }
