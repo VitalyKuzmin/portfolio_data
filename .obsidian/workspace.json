@@ -11,14 +11,17 @@
             "id": "89df06b6bb332f99",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Urban-Lighting-Reconstruction-Platform.md",
-                "mode": "source",
-                "source": false
+                "file": "schemas/AI Publishing Automation Platform/res/scheme.canvas",
+                "viewState": {
+                  "x": 408.4621010257158,
+                  "y": -273.0127550117688,
+                  "zoom": -1.4819496058091628
+                }
               },
-              "icon": "lucide-file",
-              "title": "Urban-Lighting-Reconstruction-Platform"
+              "icon": "lucide-layout-dashboard",
+              "title": "scheme"
             }
           }
         ]
@@ -185,32 +188,33 @@
   },
   "active": "89df06b6bb332f99",
   "lastOpenFiles": [
+    "schemas/Axioma AI/scheme.canvas",
+    "schemas/hAi/scheme.canvas",
+    "schemas/Light in Night Pro/scheme.canvas",
+    "schemas/Urban Lighting Reconstruction Platform/scheme.canvas",
+    "schemas/hAi/res/scheme_ways.canvas",
+    "schemas/hAi/res/scheme.canvas",
+    "schemas/AI Publishing Automation Platform/res/scheme.canvas",
+    "AI-Publishing-Automation-Platform.md",
+    "Urban-Lighting-Reconstruction-Platform.md",
     "README.md",
     "Light-in-Night.md",
     "hAi.md",
     "Axioma AI.md",
-    "Urban-Lighting-Reconstruction-Platform.md",
+    "schemas/Axioma AI/res/SCHEME.canvas",
+    "schemas/Axioma AI/SCHEME 1.canvas",
     "img/8.jpg",
     "img/7.jpg",
     "img/6.jpg",
     "img/5.jpg",
     "img/3.jpg",
     "img/2.jpg",
-    "schemas/Axioma AI/SCHEME 1.canvas",
-    "schemas/Axioma AI/SCHEME.canvas",
-    "schemas/Urban Lighting Reconstruction Platform/scheme.canvas",
-    "schemas/Light in Night Pro/scheme.canvas",
-    "schemas/hAi/res/scheme_ways.canvas",
-    "schemas/hAi/res/scheme.canvas",
-    "schemas/hAi/scheme.canvas",
-    "schemas/Axioma AI/res/SCHEME.canvas",
     "schemas/Axioma AI/res/SCHEME big old.canvas",
     "schemas/hAi/res/desc.md",
     "schemas/hAi/res",
     "schemas/hAi/scheme.canvas copy",
     "schemas/hAi/scheme_ways.canvas",
     "schemas/hAi/desc.md",
-    "AI-Publishing-Automation-Platform.md",
     "schemas/Light in Night Pro",
     "schemas/AI Publishing Automation Platform/res",
     "schemas/Axioma AI/res",
