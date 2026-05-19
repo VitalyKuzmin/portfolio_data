@@ -4,24 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "050a06d22e721876",
+        "id": "485e3de0f039be77",
         "type": "tabs",
         "children": [
           {
-            "id": "89df06b6bb332f99",
+            "id": "e28378438a8a0641",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "schemas/AI Publishing Automation Platform/res/scheme.canvas",
-                "viewState": {
-                  "x": 408.4621010257158,
-                  "y": -273.0127550117688,
-                  "zoom": -1.4819496058091628
-                }
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "scheme"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -56,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Raft Digital Solutions",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,8 +94,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
-                "collapseAll": false,
+                "file": "schemas/Axioma AI/scheme.canvas",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -107,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for scheme"
             }
           },
           {
@@ -168,12 +165,12 @@
               "title": "Outline of README"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,61 +183,62 @@
       "bases:Create new base": false
     }
   },
-  "active": "89df06b6bb332f99",
+  "active": "e28378438a8a0641",
   "lastOpenFiles": [
-    "schemas/Axioma AI/scheme.canvas",
-    "schemas/hAi/scheme.canvas",
-    "schemas/Light in Night Pro/scheme.canvas",
-    "schemas/Urban Lighting Reconstruction Platform/scheme.canvas",
-    "schemas/hAi/res/scheme_ways.canvas",
-    "schemas/hAi/res/scheme.canvas",
-    "schemas/AI Publishing Automation Platform/res/scheme.canvas",
-    "AI-Publishing-Automation-Platform.md",
-    "Urban-Lighting-Reconstruction-Platform.md",
-    "README.md",
-    "Light-in-Night.md",
-    "hAi.md",
     "Axioma AI.md",
-    "schemas/Axioma AI/res/SCHEME.canvas",
-    "schemas/Axioma AI/SCHEME 1.canvas",
-    "img/8.jpg",
+    "README.md",
+    "hAi.md",
+    "AI-Publishing-Automation-Platform.md",
+    "Urban-Lighting-Platform.md",
+    "Light-in-Night.md",
+    "schemas/Axioma AI/scheme.canvas",
     "img/7.jpg",
+    "img/8.jpg",
+    "img/7 2.jpg",
     "img/6.jpg",
     "img/5.jpg",
-    "img/3.jpg",
-    "img/2.jpg",
-    "schemas/Axioma AI/res/SCHEME big old.canvas",
-    "schemas/hAi/res/desc.md",
-    "schemas/hAi/res",
-    "schemas/hAi/scheme.canvas copy",
-    "schemas/hAi/scheme_ways.canvas",
-    "schemas/hAi/desc.md",
-    "schemas/Light in Night Pro",
-    "schemas/AI Publishing Automation Platform/res",
-    "schemas/Axioma AI/res",
-    "schemas/Urban Lighting Reconstruction Platform",
-    "schemas/AI Publishing Automation Platform",
-    "schemas/hAi",
-    "schemas/untitled folder",
-    "schemas/Axioma AI",
-    "Reconstruction.md",
-    "MSL.Mapping.md",
-    "Inventarisation.md",
-    "BL-Bio.md",
-    "AI-Design-Assistant.md",
-    "AI-Content-Automation.md",
-    "1_Main.md",
-    "Web-Services.md",
-    "feed.md",
-    "img/9.jpg",
     "img/4.jpg",
     "img/1.jpg",
-    "prjs/img/9.jpg",
-    "prjs/Web-Services.md",
-    "prjs/MSL.Mapping.md",
-    "prjs/Light-in-Night.md",
-    "prjs/hAi.md",
-    "prjs/BL-Bio.md",
-    "prjs/Inventarisation.md"
+    "schemas/Publish AI/res/scheme.canvas",
+    "schemas/Publish AI/res",
+    "schemas/Publish AI/legend.md",
+    "schemas/Publish AI/about.md",
+    "schemas/Publish AI",
+    "schemas/AI Publishing/res/scheme.canvas",
+    "schemas/AI Publishing/res",
+    "schemas/AI Publishing/legend.md",
+    "schemas/AI Publishing/about.md",
+    "schemas/AI Publishing",
+    "schemas/Urban Lighting Platform/old/Reconstruction.md",
+    "schemas/Urban Lighting Platform/old/MSL.Mapping.md",
+    "schemas/Urban Lighting Platform/old/Inventarisation.md",
+    "schemas/Urban Lighting Platform/scheme.canvas",
+    "schemas/Urban Lighting Platform/old",
+    "schemas/Urban Lighting Platform",
+    "schemas/Light in Night/old/Web-Services.md",
+    "schemas/Light in Night/old/Light-in-Night.md",
+    "schemas/Light in Night/scheme.canvas",
+    "schemas/Light in Night/old",
+    "schemas/Light in Night",
+    "schemas/Light in Night Pro/old",
+    "schemas/Urban Lighting Reconstruction Platform/old/Inventarisation.md",
+    "schemas/Urban Lighting Reconstruction Platform/old/MSL.Mapping.md",
+    "schemas/Urban Lighting Reconstruction Platform/old/Reconstruction.md",
+    "schemas/Urban Lighting Reconstruction Platform/old",
+    "schemas/Urban Lighting Reconstruction Platform/res/Reconstruction.md",
+    "schemas/AI Publishing Automation Platform/legend.md",
+    "schemas/AI Publishing Automation Platform/about.md",
+    "schemas/hAi/res/scheme.canvas",
+    "schemas/hAi/res/scheme_ways.canvas",
+    "schemas/hAi/scheme.canvas",
+    "schemas/Axioma AI/scheme.svg",
+    "schemas/Axioma AI/scheme_05.svg",
+    "schemas/Axioma AI/res/SCHEME big old.canvas",
+    "schemas/Axioma AI/res/GPU_SCHEME.canvas",
+    "schemas/hAi/res/desc.md",
+    "scemas/hAi/res/desc.md",
+    "res/hAi/res/desc.md",
+    "Urban-Lighting-Reconstruction-Platform.md",
+    "img/3.jpg"
   ]
 }

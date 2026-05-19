@@ -8,10 +8,18 @@
 
 Senior AI Architect and Full Stack Engineer with 8+ years of experience building complex software systems and 2+ years specializing in LLM orchestration, agentic frameworks, RAG, and private/on-premise AI. Proven track record of transitioning traditional enterprise workflows into AI-driven ecosystems. Founder of [hAi](hAi.md), an open-source local-first AI assistant. Deeply focused on AI agents, local models, LangGraph, MCP, and practical assistant platforms for real business systems.
 
+### Project Timeline
+
+1. [**Light in Night**](Light-in-Night.md) — professional lighting design software; team leadership for a 10+ person engineering team.
+2. [**Urban Lighting Platform**](Urban-Lighting-Platform.md) — ML reconstruction platform for urban lighting: field inventory and mobile laboratory measurements turned into geospatial datasets, LightGBM-based illuminance prediction, and reconstruction planning.
+3. [**Smart Publish**](AI-Publishing-Automation-Platform.md) — AI-assisted publishing platform.
+4. [**hAi**](hAi.md) — personal local-first desktop AI assistant and R&D environment.
+5. [**Axioma AI**](Axioma%20AI.md) — enterprise AI assistant platform for asset management workflows.
+
 ### Experience
 
 **Lead AI Architect**  
-*InterProCom | 2025 - Present*
+*InterProCom | 02.2025 - Present*
 
 - Leading the development of [Axioma AI](Axioma%20AI.md), an enterprise AI assistant platform for the Axioma asset management system used in the energy domain.
 - **Multi-Agent Orchestration:** Architected a multi-agent system using LangGraph, integrating specialized sub-agents for SQL, norm-control, and domain RAG pipelines to help users navigate and edit enterprise data.
@@ -20,7 +28,7 @@ Senior AI Architect and Full Stack Engineer with 8+ years of experience building
 - Tech Stack: Python, FastAPI, LangGraph, LangChain, LlamaIndex, local LLMs, Ollama, LiteLLM, Langfuse, RAG, SQL agents, PostgreSQL, Docker.
 
 **Founder & Lead AI Developer**  
-*[hAi](hAi.md), open-source local AI assistant | 2023 - Present*
+*[hAi](hAi.md), open-source local AI assistant | 2024 - Present*
 
 - Designed and developed an open-source personal AI assistant focused on local execution, contextual memory, voice interaction, and tool use.
 - **Core Engine:** Built a distributed local application using Python/FastAPI, agent orchestration, LiveKit for voice interactions, and ActivityWatch for computer activity context.
@@ -29,19 +37,19 @@ Senior AI Architect and Full Stack Engineer with 8+ years of experience building
 - Tech Stack: Python, FastAPI, LangGraph, LangChain, LiveKit, React, Electron, SQLite, LanceDB, ActivityWatch, MCP, Ollama.
 
 **Lead AI Engineer**  
-*AI Outsourcing Company | 2024 - 2025*
+*AI Outsourcing Company | 04.2023 - 02.2025*
 
-- Led the development of an [AI Publishing Automation Platform](AI-Publishing-Automation-Platform.md) for a B2B client, moving the idea from an early prototype toward a working LLM-powered product.
+- Led the development of [Smart Publish](AI-Publishing-Automation-Platform.md), an AI-assisted publishing platform, moving the idea from an early prototype toward a working LLM-powered product.
 - Architected an automated publishing workflow that ingested raw news drafts from multiple channels, including email and Telegram.
 - Designed the LLM processing pipeline for structuring, rewriting, editing, formatting, and preparing publication metadata.
 - Integrated the platform with a client CMS through an API and prepared the workflow for social media distribution.
 - Tech Stack: Python, FastAPI, OpenAI API, Telegram API, REST APIs, CMS integrations, n8n, LangChain, prompt engineering.
 
 **Team Lead / Lead Software Engineer**  
-*BL-Group | 2018 - 2023*
+*BL-Group | 01.2018 - 04.2023*
 
 - Grew from Full Stack Developer to Team Lead, managing cross-functional teams of up to 10 engineers across C++, Python, frontend, QA, design, and analytics.
-- **Data & ML Platform:** Led the development of the [Urban Lighting Reconstruction Platform](Urban-Lighting-Reconstruction-Platform.md), combining field inventory, mobile laboratory measurements, geospatial mapping, and LightGBM-based illuminance prediction.
+- **ML Reconstruction Platform:** Led the development of the [Urban Lighting Platform](Urban-Lighting-Platform.md), combining field inventory, mobile laboratory measurements, geospatial mapping, feature engineering, and LightGBM-based illuminance prediction for reconstruction planning.
 - **Enterprise Automation:** Automated field data collection, lighting asset mapping, reconstruction analytics, and tender documentation workflows.
 - **Product Development:** Led development processes for [Light in Night Pro](Light-in-Night.md), a professional lighting calculation and design application, and built Python backend services for online calculators.
 - Tech Stack: Python, Node.js, C++, Docker, PostgreSQL, LightGBM, GitLab CI/CD, React/Vue.

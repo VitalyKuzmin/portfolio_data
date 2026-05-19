@@ -1,4 +1,4 @@
-![alt text](img/6.jpg)
+![Light in Night Pro architecture overview](img/1.jpg)
 
 ### Light in Night Pro (professional lighting calculation and design)
 
