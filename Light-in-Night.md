@@ -1,4 +1,4 @@
-# Light in Night Pro
+# Light in Night
 
 A professional desktop application for indoor and outdoor lighting calculation, design, and project preparation.
 
