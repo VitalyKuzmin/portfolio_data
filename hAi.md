@@ -1,4 +1,4 @@
-![hAi concept overview](img/8.jpg)
+![hAi concept overview](img/5.jpg)
 
 ### hAi (local-first AI assistant for computer control) | [Project Website](https://hi-ai.app/)
 

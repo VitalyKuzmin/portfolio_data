@@ -123,21 +123,23 @@ The generated content is shown to the user before publication. The user can:
 - schedule publication;
 - publish immediately.
 
-## Assistant Layer
+## Planning Assistant Layer
 
-In addition to the deterministic publishing pipeline, the platform includes an assistant layer.
+In addition to the deterministic publishing pipeline, the platform includes a lightweight planning assistant layer.
 
-The assistant helps the user:
+The planning assistant helps the user:
 
 - create posts from scratch;
 - improve a draft;
 - ask for promotion ideas;
 - choose publication channels;
 - adapt tone for a specific audience;
-- prepare a publishing plan;
+- prepare a simple publishing calendar;
+- generate short article briefs;
+- expand a selected plan item into a draft;
 - reuse previous notes and knowledge base materials.
 
-This assistant is not the main publishing mechanism. It sits above the workflow and helps the user think, plan, and prepare content before the structured pipeline runs.
+This assistant is not the main publishing mechanism and does not publish autonomously. It sits above the workflow and helps the user think, plan, and prepare content before the structured pipeline runs.
 
 ## Knowledge Base
 
@@ -157,7 +159,7 @@ This knowledge base allows generated posts to be more consistent with the client
 
 ## MCP and External Context
 
-Later, the platform was extended with MCP-style tool integration so the assistant could use additional external context.
+Later, the platform was extended with MCP-style tool integration so the planning assistant could use additional external context.
 
 Potential MCP/tool use cases:
 
@@ -168,7 +170,7 @@ Potential MCP/tool use cases:
 - enrich a draft before generation;
 - validate generated content against custom rules.
 
-This made the assistant layer more extensible without turning the core publishing pipeline into a collection of hardcoded integrations.
+This made the planning layer more extensible without turning the core publishing pipeline into a collection of hardcoded integrations.
 
 ## Scheduling
 
@@ -204,7 +206,7 @@ The system can be described as several connected modules.
 - LLM-based draft understanding.
 - Prompt/template system for each publishing destination.
 - Content generation and channel adaptation.
-- Assistant mode for brainstorming and promotion advice.
+- Planning assistant mode for brainstorming, article briefs, and publication calendar ideas.
 - Knowledge base retrieval for contextual generation.
 
 ### Connector Layer
@@ -229,7 +231,7 @@ The exact implementation can vary by deployment, but the project was built aroun
 
 - **Backend:** Python, FastAPI.
 - **Workflow automation:** n8n, background jobs.
-- **AI:** OpenAI API, LangChain-style prompt orchestration, structured prompts.
+- **AI:** OpenAI API, structured prompt orchestration, channel-specific templates.
 - **Integrations:** Telegram API, REST APIs, CMS APIs, social platform APIs.
 - **Data:** relational database for drafts, versions, configs, and publication states; file/object storage for media.
 - **Knowledge base:** vector search/RAG-style context for notes and reference documents.
@@ -249,7 +251,7 @@ My responsibilities included:
 - integrating Telegram and CMS APIs;
 - designing the custom connector approach;
 - preparing the system for additional publishing destinations;
-- adding the assistant/knowledge-base direction for richer content generation.
+- adding the planning assistant and knowledge-base direction for richer content generation.
 
 ## Why This Project Matters
 
@@ -260,6 +262,6 @@ The project was important because it moved beyond a simple "generate a post" dem
 - publishing is handled through integrations, not copy-paste;
 - every channel has its own rules and prompts;
 - custom APIs can be connected without rewriting the product;
-- the assistant layer supports planning, while the pipeline handles execution.
+- the planning assistant supports ideas and calendar preparation, while the pipeline handles generation, review, and execution.
 
 This is the same product logic that later became central to my AI work: not just chat, but AI systems that operate inside real workflows and connect to external tools.

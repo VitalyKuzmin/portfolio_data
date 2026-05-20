@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Smart Publish.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Smart Publish"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "Smart Publish.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of Smart Publish"
             }
           }
         ],
@@ -170,7 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 299.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,24 +185,33 @@
   },
   "active": "e28378438a8a0641",
   "lastOpenFiles": [
-    "Axioma AI.md",
     "README.md",
-    "hAi.md",
-    "AI-Publishing-Automation-Platform.md",
-    "Urban-Lighting-Platform.md",
+    "Smart Publish.md",
+    "Axioma AI.md",
     "Light-in-Night.md",
-    "schemas/Axioma AI/scheme.canvas",
-    "img/7.jpg",
-    "img/8.jpg",
-    "img/7 2.jpg",
-    "img/6.jpg",
+    "Urban-Lighting-Platform.md",
+    "img/4_2.jpg",
+    "img/4_1.jpg",
+    "schemas/Publish AI/scheme.canvas",
+    "img/2_1.jpg",
+    "img/2_2.jpg",
+    "img/2_21.jpg",
     "img/5.jpg",
     "img/4.jpg",
-    "img/1.jpg",
-    "schemas/Publish AI/res/scheme.canvas",
+    "img/3_3.jpg",
+    "img/3_2.jpg",
+    "img/3_1.jpg",
+    "schemas/Axioma AI/scheme.canvas",
+    "schemas/Light in Night/scheme.canvas",
+    "schemas/Publish AI/res/legend.md",
     "schemas/Publish AI/res",
-    "schemas/Publish AI/legend.md",
-    "schemas/Publish AI/about.md",
+    "schemas/hAi/res/scheme_ways.canvas",
+    "schemas/hAi/res/scheme.canvas",
+    "hAi.md",
+    "schemas/hAi/scheme.canvas",
+    "schemas/Urban Lighting Platform/scheme.canvas",
+    "schemas/Publish AI/res",
+    "schemas/Publish AI/res/about.md",
     "schemas/Publish AI",
     "schemas/AI Publishing/res/scheme.canvas",
     "schemas/AI Publishing/res",
@@ -212,33 +221,24 @@
     "schemas/Urban Lighting Platform/old/Reconstruction.md",
     "schemas/Urban Lighting Platform/old/MSL.Mapping.md",
     "schemas/Urban Lighting Platform/old/Inventarisation.md",
-    "schemas/Urban Lighting Platform/scheme.canvas",
     "schemas/Urban Lighting Platform/old",
     "schemas/Urban Lighting Platform",
     "schemas/Light in Night/old/Web-Services.md",
     "schemas/Light in Night/old/Light-in-Night.md",
-    "schemas/Light in Night/scheme.canvas",
     "schemas/Light in Night/old",
     "schemas/Light in Night",
     "schemas/Light in Night Pro/old",
     "schemas/Urban Lighting Reconstruction Platform/old/Inventarisation.md",
     "schemas/Urban Lighting Reconstruction Platform/old/MSL.Mapping.md",
     "schemas/Urban Lighting Reconstruction Platform/old/Reconstruction.md",
-    "schemas/Urban Lighting Reconstruction Platform/old",
     "schemas/Urban Lighting Reconstruction Platform/res/Reconstruction.md",
     "schemas/AI Publishing Automation Platform/legend.md",
     "schemas/AI Publishing Automation Platform/about.md",
-    "schemas/hAi/res/scheme.canvas",
-    "schemas/hAi/res/scheme_ways.canvas",
-    "schemas/hAi/scheme.canvas",
-    "schemas/Axioma AI/scheme.svg",
-    "schemas/Axioma AI/scheme_05.svg",
     "schemas/Axioma AI/res/SCHEME big old.canvas",
     "schemas/Axioma AI/res/GPU_SCHEME.canvas",
     "schemas/hAi/res/desc.md",
     "scemas/hAi/res/desc.md",
     "res/hAi/res/desc.md",
-    "Urban-Lighting-Reconstruction-Platform.md",
-    "img/3.jpg"
+    "Urban-Lighting-Reconstruction-Platform.md"
   ]
 }

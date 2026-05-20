@@ -7,18 +7,18 @@
 
 ## 2. Product Overview
 **Project Name:** Smart Publish / AI Publishing Automation Platform
-**Concept:** An agentic workflow platform that acts as a centralized content hub. It ingests rough drafts or raw notes, uses an LLM pipeline to generate channel-specific versions (respecting character limits, tone of voice, and formatting), and orchestrates multi-channel publishing after mandatory human review.
+**Concept:** A structured AI workflow platform that acts as a centralized content hub. It ingests rough drafts or raw notes, uses an LLM pipeline to generate channel-specific versions (respecting character limits, tone of voice, and formatting), and orchestrates multi-channel publishing after mandatory human review.
 
 ## 3. My Role: Lead AI Engineer / AI Architect
 I led the engineering of the AI pipeline and backend architecture. My responsibilities included:
-*   Designing the system architecture, moving away from a simple "chatbot wrapper" to a predictable, multi-step Agentic Workflow.
+*   Designing the system architecture, moving away from a simple "chatbot wrapper" to a predictable, multi-step AI workflow.
 *   Developing the core AI pipeline: Draft ingestion -> Fact extraction -> Content generation -> Channel-specific adaptation.
 *   Designing the "Custom Website Connector" – a flexible mapping system to push content into legacy corporate CMSs via REST APIs without hardcoding each integration.
 *   Implementing a mandatory "Human-in-the-Loop" (HITL) approval system to guarantee brand safety and prevent LLM hallucinations from going live.
 
 ## 4. Tech Stack & Architecture
 *   **Backend:** Python, FastAPI.
-*   **AI/LLM Layer:** OpenAI API / Claude, LangChain-style orchestration for prompt chaining.
+*   **AI/LLM Layer:** OpenAI API / Claude, structured prompt orchestration and channel-specific templates.
 *   **Workflow & Automation:** n8n / Celery (background job processing, retries, and rate-limit handling).
 *   **Database:** PostgreSQL (for drafts, approval states, and connector configs), S3 for media storage.
 *   **Integrations:** Direct social media APIs (LinkedIn, X, Telegram), Webhooks, and custom REST API endpoints for internal CMSs.

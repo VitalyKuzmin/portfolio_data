@@ -12,7 +12,7 @@ Senior AI Architect and Full Stack Engineer with 8+ years of experience building
 
 1. [**Light in Night**](Light-in-Night.md) — professional lighting design software; team leadership for a 10+ person engineering team.
 2. [**Urban Lighting Platform**](Urban-Lighting-Platform.md) — ML reconstruction platform for urban lighting: field inventory and mobile laboratory measurements turned into geospatial datasets, LightGBM-based illuminance prediction, and reconstruction planning.
-3. [**Smart Publish**](AI-Publishing-Automation-Platform.md) — AI-assisted publishing platform.
+3. [**Smart Publish**](Smart%20Publish.md) — AI-assisted publishing platform.
 4. [**hAi**](hAi.md) — personal local-first desktop AI assistant and R&D environment.
 5. [**Axioma AI**](Axioma%20AI.md) — enterprise AI assistant platform for asset management workflows.
 
@@ -39,11 +39,11 @@ Senior AI Architect and Full Stack Engineer with 8+ years of experience building
 **Lead AI Engineer**  
 *AI Outsourcing Company | 04.2023 - 02.2025*
 
-- Led the development of [Smart Publish](AI-Publishing-Automation-Platform.md), an AI-assisted publishing platform, moving the idea from an early prototype toward a working LLM-powered product.
+- Led the development of [Smart Publish](Smart%20Publish.md), an AI-assisted publishing platform, moving the idea from an early prototype toward a working LLM-powered product.
 - Architected an automated publishing workflow that ingested raw news drafts from multiple channels, including email and Telegram.
 - Designed the LLM processing pipeline for structuring, rewriting, editing, formatting, and preparing publication metadata.
 - Integrated the platform with a client CMS through an API and prepared the workflow for social media distribution.
-- Tech Stack: Python, FastAPI, OpenAI API, Telegram API, REST APIs, CMS integrations, n8n, LangChain, prompt engineering.
+- Tech Stack: Python, FastAPI, OpenAI API, Telegram API, REST APIs, CMS integrations, n8n, prompt engineering.
 
 **Team Lead / Lead Software Engineer**  
 *BL-Group | 01.2018 - 04.2023*

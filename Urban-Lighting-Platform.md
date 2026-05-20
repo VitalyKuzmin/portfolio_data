@@ -18,7 +18,7 @@ Instead of treating these as separate tools, I now describe them as one platform
 
 ## 1. Field Inventory
 
-![Field inventory workflow](img/3.jpg)
+![Field inventory workflow](img/2_1.jpg)
 
 The first part automated outdoor lighting asset inventory. Before this, the process was mostly manual: field data was collected on paper, digitized later, and plotted on maps by third-party contractors.
 
@@ -34,7 +34,7 @@ This created the structured asset layer: poles, luminaires, coordinates, photos,
 
 ## 2. Mobile Laboratory Mapping
 
-![Mobile laboratory mapping](img/2.jpg)
+![Mobile laboratory mapping](img/2_2.jpg)
 
 The second part processed measurements from a mobile lighting laboratory. A vehicle collected illuminance, speed, GPS, and sensor data while driving through streets.
 
@@ -50,7 +50,7 @@ This created the measurement layer: real lighting levels tied to geography.
 
 ## 3. ML Reconstruction Planning
 
-![ML reconstruction planning](img/4.jpg)
+![ML reconstruction planning](img/2_3.jpg)
 
 The final and most important stage connected inventory and measurement data into a predictive reconstruction workflow.
 
