@@ -10,7 +10,7 @@ The goal was to build a production-ready lighting design application and organiz
 
 ### Product Overview
 
-![Light in Night Pro architecture overview](img/1.jpg)
+![Light in Night architecture overview](img/1.jpg)
 
 **Product and engineering layer:** desktop lighting design workflow, calculation modules, UI/UX work, backend services, task tracking, release planning, logging, metrics, QA processes, and AI-assisted development experiments.
 

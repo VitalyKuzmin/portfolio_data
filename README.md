@@ -51,7 +51,7 @@ Senior AI Architect and Full Stack Engineer with 8+ years of experience building
 - Grew from Full Stack Developer to Team Lead, managing cross-functional teams of up to 10 engineers across C++, Python, frontend, QA, design, and analytics.
 - **ML Reconstruction Platform:** Led the development of the [Urban Lighting Platform](Urban%20Lighting%20Platform.md), combining field inventory, mobile laboratory measurements, geospatial mapping, feature engineering, and LightGBM-based illuminance prediction for reconstruction planning.
 - **Enterprise Automation:** Automated field data collection, lighting asset mapping, reconstruction analytics, and tender documentation workflows.
-- **Product Development:** Led development processes for [Light in Night Pro](Light-in-Night.md), a professional lighting calculation and design application, and built Python backend services for online calculators.
+- **Product Development:** Led development processes for [Light in Night](Light-in-Night.md), a professional lighting calculation and design application, and built Python backend services for online calculators.
 - Tech Stack: Python, Node.js, C++, Docker, PostgreSQL, LightGBM, GitLab CI/CD, React/Vue.
 
 ### Skills
