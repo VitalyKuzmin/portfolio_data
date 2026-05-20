@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Smart Publish.md",
+                "file": "Axioma AI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Smart Publish"
+              "title": "Axioma AI"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Smart Publish.md",
+                "file": "Axioma AI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Smart Publish"
+              "title": "Outline of Axioma AI"
             }
           }
         ],
@@ -185,11 +185,12 @@
   },
   "active": "e28378438a8a0641",
   "lastOpenFiles": [
-    "README.md",
+    "hAi.md",
     "Smart Publish.md",
-    "Axioma AI.md",
+    "README.md",
     "Light-in-Night.md",
-    "Urban-Lighting-Platform.md",
+    "Urban Lighting Platform.md",
+    "Axioma AI.md",
     "img/4_2.jpg",
     "img/4_1.jpg",
     "schemas/Publish AI/scheme.canvas",
@@ -207,7 +208,6 @@
     "schemas/Publish AI/res",
     "schemas/hAi/res/scheme_ways.canvas",
     "schemas/hAi/res/scheme.canvas",
-    "hAi.md",
     "schemas/hAi/scheme.canvas",
     "schemas/Urban Lighting Platform/scheme.canvas",
     "schemas/Publish AI/res",

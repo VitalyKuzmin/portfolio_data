@@ -11,7 +11,7 @@ Senior AI Architect and Full Stack Engineer with 8+ years of experience building
 ### Project Timeline
 
 1. [**Light in Night**](Light-in-Night.md) — professional lighting design software; team leadership for a 10+ person engineering team.
-2. [**Urban Lighting Platform**](Urban-Lighting-Platform.md) — ML reconstruction platform for urban lighting: field inventory and mobile laboratory measurements turned into geospatial datasets, LightGBM-based illuminance prediction, and reconstruction planning.
+2. [**Urban Lighting Platform**](Urban%20Lighting%20Platform.md) — ML reconstruction platform for urban lighting: field inventory and mobile laboratory measurements turned into geospatial datasets, LightGBM-based illuminance prediction, and reconstruction planning.
 3. [**Smart Publish**](Smart%20Publish.md) — AI-assisted publishing platform.
 4. [**hAi**](hAi.md) — personal local-first desktop AI assistant and R&D environment.
 5. [**Axioma AI**](Axioma%20AI.md) — enterprise AI assistant platform for asset management workflows.
@@ -49,7 +49,7 @@ Senior AI Architect and Full Stack Engineer with 8+ years of experience building
 *BL-Group | 01.2018 - 04.2023*
 
 - Grew from Full Stack Developer to Team Lead, managing cross-functional teams of up to 10 engineers across C++, Python, frontend, QA, design, and analytics.
-- **ML Reconstruction Platform:** Led the development of the [Urban Lighting Platform](Urban-Lighting-Platform.md), combining field inventory, mobile laboratory measurements, geospatial mapping, feature engineering, and LightGBM-based illuminance prediction for reconstruction planning.
+- **ML Reconstruction Platform:** Led the development of the [Urban Lighting Platform](Urban%20Lighting%20Platform.md), combining field inventory, mobile laboratory measurements, geospatial mapping, feature engineering, and LightGBM-based illuminance prediction for reconstruction planning.
 - **Enterprise Automation:** Automated field data collection, lighting asset mapping, reconstruction analytics, and tender documentation workflows.
 - **Product Development:** Led development processes for [Light in Night Pro](Light-in-Night.md), a professional lighting calculation and design application, and built Python backend services for online calculators.
 - Tech Stack: Python, Node.js, C++, Docker, PostgreSQL, LightGBM, GitLab CI/CD, React/Vue.
