@@ -31,4 +31,6 @@ Python, FastAPI, Electron, React, TypeScript, LangChain, SQLAlchemy, SQLite, Lan
 
 ### My Role
 
-Founder and lead developer. I designed the architecture, implemented the backend core, built the agent and memory concepts, integrated local and cloud models, and continue preparing the project for public/open-source release.
+Solo founder and lead developer. I designed and built the system end-to-end: architecture, backend core, agent logic, memory concepts, local/cloud model integrations, tool use, and desktop context experiments.
+
+I continue to use hAi as my personal AI assistant R&D environment while preparing the project for public/open-source release.
