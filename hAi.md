@@ -1,22 +1,36 @@
+# hAi
+
+A local-first desktop AI assistant for computer context, personal memory, voice interaction, local models, and tool use.
+
+hAi is my personal open-source R&D project. I started it to explore what a real personal AI assistant could become: not just a chat window, but a system that understands the user's computer context, works with local and cloud models, uses tools, and gradually becomes a universal desktop companion.
+
+### Goal
+
+The goal is to build a practical assistant platform that can run locally, use personal context safely, interact with desktop workflows, support voice, connect external tools through MCP, and serve as my real environment for AI assistant research.
+
+### Architecture Overview
+
 ![hAi concept overview](img/5.jpg)
 
-### hAi (local-first AI assistant for computer control) | [Project Website](https://hi-ai.app/)
+**Local assistant layer:** desktop app, Python/FastAPI backend, local memory, ActivityWatch context, screenshots, SQLite/LanceDB storage, LiveKit voice services, MCP tools, script execution, local/cloud LLM routing, and AI-assisted development workflows.
 
-**hAi** is my personal open-source R&D project focused on building a local-first desktop AI assistant. I started it as a way to explore what a real personal AI assistant could become: not just a chat window, but a system that understands the user's computer context, works with local models, uses tools, and can gradually become a universal desktop companion.
+### What I Built
 
-**Key Idea:**
-To create an assistant that has a cognitive memory model, tracks user activity on the computer, supports voice interaction, works with local and cloud models, and can be extended through tools and protocols such as MCP.
+- Designed the architecture of a distributed local desktop assistant.
+- Built the backend core for agent logic, memory, model routing, and tool use.
+- Integrated local and cloud LLMs, including Ollama-based local model workflows.
+- Added ActivityWatch-based computer activity context and snapshot/screenshot-oriented context experiments.
+- Built memory and storage concepts with SQLite and LanceDB.
+- Integrated voice-related components through LiveKit and STT/TTS tools.
+- Added MCP support for connecting local tools, files, and external systems.
+- Use the project daily as an R&D environment for local models, Mac Studio inference optimization, agent UX, and AI-assisted development.
 
-**Architecture and Stack:**
-The system is built as a **distributed local application**. The core, based on **Python/FastAPI**, manages agent logic, memory, model routing, and tool use. Specialized services such as **LiveKit** for voice communication and **ActivityWatch** for desktop activity context run as independent components.
+### Stack
 
-The project is also my practical environment for experimenting with modern AI assistant architecture: local LLMs, Mac Studio inference optimization, agent UX, contextual memory, MCP tool integrations, voice interaction, and AI-assisted development workflows. I actively use it in my own work and continue preparing it for a public release.
+Python, FastAPI, Electron, React, TypeScript, LangChain, SQLAlchemy, SQLite, LanceDB, ActivityWatch, LiveKit, MCP, Ollama, OpenAI, Gemini, Whisper, Piper, Moondream.
 
-- **Backend:** Python, FastAPI, LangChain, SQLAlchemy.
-- **Frontend:** Electron, React, TypeScript.
-- **AI:** Integration with cloud and local LLMs (OpenAI, Gemini, Ollama), Computer Vision (Moondream), and STT/TTS solutions (Whisper, Piper).
-- **DB**: SQLite, LanceDB.
-- **Protocols:** REST, SSE, and **MCP (Model Context Protocol)** for connecting external tools.
+### My Role
 
-**My Role:**
-I am the founder and lead developer of the project. I designed the architecture, implemented the backend core, built the agent and memory concepts, integrated local and cloud models, and use the project as a real testbed for AI assistant development.
+Founder and lead developer. I designed the architecture, implemented the backend core, built the agent and memory concepts, integrated local and cloud models, and continue preparing the project for public release.
+
+[Project Website](https://hi-ai.app/)

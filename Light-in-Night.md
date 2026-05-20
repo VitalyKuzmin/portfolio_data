@@ -1,17 +1,32 @@
+# Light in Night Pro
+
+A professional desktop application for indoor and outdoor lighting calculation, design, and project preparation.
+
+I joined the project when it was closer to a technical demo with unclear processes, fragmented planning, and an incomplete product workflow. My work was focused on turning it into a managed product development process with a full engineering team.
+
+### Goal
+
+The goal was to build a production-ready lighting design application and organize the development process around requirements, releases, quality control, and coordinated work between engineering, QA, design, analytics, and management.
+
+### Product Overview
+
 ![Light in Night Pro architecture overview](img/1.jpg)
 
-### Light in Night Pro (professional lighting calculation and design)
+**Product and engineering layer:** desktop lighting design workflow, calculation modules, UI/UX work, backend services, task tracking, release planning, logging, metrics, QA processes, and AI-assisted development experiments.
 
-The **Light in Night Pro** project is a comprehensive desktop application for professional design of indoor and outdoor lighting.
+### What I Built
 
-**Task:**
-I was tasked with taking the project from a "tech-demo" stage with disorganized processes and turning it into a full-fledged product.
+- Organized the product development process from requirements and specifications to GitLab issues, backlog, release planning, and delivery tracking.
+- Built and managed a cross-functional team of 10+ people across C++, Python, frontend, DevOps, QA, UX/UI design, and analytics.
+- Coordinated technical planning, product analysis, task decomposition, and release management.
+- Developed backend modules and internal services in Python.
+- Set up logging and metrics collection with Elasticsearch, Kibana, and Grafana.
+- Initiated LLM usage for UI testing automation and AI-assisted development workflows with tools such as Aider.
 
-**What was done:**
-1.  **Process Organization:** Gathered requirements, wrote technical specifications, implemented Gitlab Issues for task management, and linked the specifications to issues. Developed a version release plan, created a backlog, and generated task completion statistics.
-2.  **Team Formation:** Assembled a team by hiring a tester, UX/UI designers, and Backend and Frontend developers.
-3.  **Technical Leadership:** Managed a team of 10+ people (C++, Python, Frontend, DevOps, QA, Design). Set up log and metric collection using Elasticsearch/Kibana/Grafana. Developed backend modules in Python.
-4.  **AI Implementation:** Initiated the use of LLMs to automate UI testing and accelerate development (aider).
+### Stack
 
-**My Role:**
-I acted as **Team Lead** and **Product Analyst**. I was responsible for analytics, writing technical specifications, planning, backend development, and overall project management.
+C++, Python, desktop development, backend services, GitLab, Elasticsearch, Kibana, Grafana, QA automation, LLM-assisted development.
+
+### My Role
+
+Team Lead / Product Analyst. I was responsible for analytics, specifications, planning, backend development, process organization, team coordination, and overall technical leadership.
