@@ -40,3 +40,5 @@ Android, Electron, JavaScript, Node.js, C++, MFC, GPS/sensor data processing, 1C
 ### My Role
 
 Technical lead and full-stack developer. I designed key parts of the architecture, developed data processing components, built the ML dataset and prediction model, and connected field data, measurements, maps, and analytics into a reconstruction planning workflow.
+
+I coordinated work with software developers, analysts, and field engineering stakeholders to connect practical data collection needs with the ML and planning layer.

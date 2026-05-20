@@ -6,7 +6,7 @@
 
 **Summary**
 
-Senior AI Architect and Full Stack Engineer with 8+ years of experience building complex software systems and 2+ years specializing in LLM orchestration, agentic frameworks, RAG, and private/on-premise AI. Proven track record of transitioning traditional enterprise workflows into AI-driven ecosystems. Founder of [hAi](hAi.md), an open-source local-first AI assistant. Deeply focused on AI agents, local models, LangGraph, MCP, and practical assistant platforms for real business systems.
+Senior AI Architect and Full Stack Engineer with 8+ years of experience building complex software systems and 2+ years specializing in LLM orchestration, agentic frameworks, RAG, and private/on-premise AI. Proven track record of transitioning traditional enterprise workflows into AI-driven ecosystems. Founder of [hAi](hAi.md), a local-first AI assistant with a public/open-source release planned. Deeply focused on AI agents, local models, LangGraph, MCP, and practical assistant platforms for real business systems.
 
 ### Project Timeline
 
@@ -28,9 +28,9 @@ Senior AI Architect and Full Stack Engineer with 8+ years of experience building
 - Tech Stack: Python, FastAPI, LangGraph, LangChain, LlamaIndex, local LLMs, Ollama, LiteLLM, Langfuse, RAG, SQL agents, PostgreSQL, Docker.
 
 **Founder & Lead AI Developer**  
-*[hAi](hAi.md), open-source local AI assistant | 2024 - Present*
+*[hAi](hAi.md), local-first AI assistant | 2024 - Present*
 
-- Designed and developed an open-source personal AI assistant focused on local execution, contextual memory, voice interaction, and tool use.
+- Designed and developed a personal local-first AI assistant focused on local execution, contextual memory, voice interaction, and tool use, with a public/open-source release planned.
 - **Core Engine:** Built a distributed local application using Python/FastAPI, agent orchestration, LiveKit for voice interactions, and ActivityWatch for computer activity context.
 - **MCP Integration:** Implemented Model Context Protocol support to allow agents to interact with local tools, files, and external systems.
 - **Local LLM R&D:** Use hAi as a practical environment for Mac Studio inference optimization, local models, AI coding assistants, memory systems, and agent UX.

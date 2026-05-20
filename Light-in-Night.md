@@ -29,4 +29,4 @@ C++, Python, desktop development, backend services, GitLab, Elasticsearch, Kiban
 
 ### My Role
 
-Team Lead / Product Analyst. I was responsible for analytics, specifications, planning, backend development, process organization, team coordination, and overall technical leadership.
+Team Lead / Product Analyst. I was responsible for analytics, specifications, planning, backend development, process organization, team coordination, and overall technical leadership across engineering, QA, design, and product work.

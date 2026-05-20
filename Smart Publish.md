@@ -37,3 +37,5 @@ Python, FastAPI, OpenAI API, structured prompt orchestration, Telegram API, REST
 ### My Role
 
 Lead AI Engineer. I designed the product architecture, built the backend and AI workflow, created the prompt/template structure, integrated Telegram and CMS APIs, designed the custom connector approach, and prepared the system for additional publishing destinations.
+
+I worked in a small outsourcing team with backend, QA, and product/design collaboration while owning the AI workflow architecture and core backend implementation.

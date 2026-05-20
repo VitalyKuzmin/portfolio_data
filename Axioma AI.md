@@ -39,3 +39,5 @@ Python, FastAPI, LangGraph, LangChain, LlamaIndex, RAG, SQL agents, LiteLLM, Lan
 ### My Role
 
 Lead AI Engineer / AI Platform Architect. I am responsible for architecture, backend implementation, agent design, local model infrastructure, technical direction, and coordination of the AI development work.
+
+I work with backend engineers, QA, product stakeholders, and domain experts while owning the AI architecture, core implementation, and technical direction of the assistant platform.

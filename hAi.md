@@ -2,7 +2,7 @@
 
 A local-first desktop AI assistant for computer context, personal memory, voice interaction, local models, and tool use.
 
-hAi is my personal open-source R&D project. I started it to explore what a real personal AI assistant could become: not just a chat window, but a system that understands the user's computer context, works with local and cloud models, uses tools, and gradually becomes a universal desktop companion.
+hAi is my personal R&D project with a public/open-source release planned. I started it to explore what a real personal AI assistant could become: not just a chat window, but a system that understands the user's computer context, works with local and cloud models, uses tools, and gradually becomes a universal desktop companion.
 
 ### Goal
 
@@ -31,6 +31,4 @@ Python, FastAPI, Electron, React, TypeScript, LangChain, SQLAlchemy, SQLite, Lan
 
 ### My Role
 
-Founder and lead developer. I designed the architecture, implemented the backend core, built the agent and memory concepts, integrated local and cloud models, and continue preparing the project for public release.
-
-[Project Website](https://hi-ai.app/)
+Founder and lead developer. I designed the architecture, implemented the backend core, built the agent and memory concepts, integrated local and cloud models, and continue preparing the project for public/open-source release.
