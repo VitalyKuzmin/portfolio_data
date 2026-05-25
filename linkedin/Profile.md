@@ -112,52 +112,6 @@ Senior AI Architect / Lead AI Engineer | LLM Agents, RAG, Local & On-Prem AI
 - Context-Driven Development
 - Prompt Engineering
 
-
-### 2024 - Now
-
-
-- Title*: Founder & Lead AI Developer
-- Employment type: Self-employed
-- Company or organization*: hAi
-- I am currently working in this role: [x]
-- Start date: 2024
-- Location: Tbilisi, Georgia
-- Location type: Remote
-
-#### Description
-
-Founder and lead developer of hAi, a local-first desktop AI assistant focused on local execution, memory, voice interaction, tool use, and personal computer context.
-
-- Designed and built the backend core, agent orchestration, MCP integrations, memory layer, ActivityWatch context, and LiveKit-based voice interaction.
-- Developed the project as a practical R&D environment for local LLMs, Mac Studio inference optimization, AI coding assistants, agent UX, and personal automation.
-- Built the assistant with a local-first architecture while keeping support for cloud models and external tools where useful.
-- Preparing the project for a public/open-source release.
-
-Tech stack: Python, FastAPI, LangGraph, LangChain, LiveKit, React, Electron, SQLite, LanceDB, ActivityWatch, MCP, Ollama, local LLMs.
-
-(798/2,000)
-
-#### Profile headline
-
-Senior AI Architect / Lead AI Engineer | LLM Agents, RAG, Local & On-Prem AI
-
-(76/220)
-
-#### Skills
-
-- Agentic AI Development
-- LangGraph
-- Local LLMs
-- Model Context Protocol (MCP)
-- Python (Programming Language)
-- FastAPI
-- React.js
-- Electron.js
-- LiveKit
-- SQLite
-- Vector Databases
-- AI-Assisted Software Development
-
 ### June 2022 - February 2025
 
 - Title*: Lead AI Engineer
@@ -301,7 +255,7 @@ The project is used as a practical environment for local LLM research, Mac Studi
 
 ### Smart Publish
 
-- Dates: June 2022 - February 2025
+- Dates: Aug 2023 - February 2025
 - Associated with: BL Group R&D Center
 
 
@@ -329,10 +283,9 @@ Business impact: reduced repetitive editorial preparation and formatting work by
 - Product Development
 - Technical Leadership
 
-
 ### Urban Lighting
 
-- Dates: July 2018 - June 2022
+- Dates: May 2021 - Jun 2022
 - Associated with: BL Group
 
 #### Description
@@ -361,7 +314,7 @@ Business impact: accelerated field data collection and processing by up to 60%, 
 
 ### Light in Night
 
-- Dates: July 2018 - June 2022
+- Dates: Jan 2020 - May 2021
 - Associated with: BL Group
 
 
