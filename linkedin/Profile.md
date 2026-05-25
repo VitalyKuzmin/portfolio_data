@@ -26,7 +26,7 @@
 
 ## About
 
-Senior AI Architect and Full Stack Engineer with 8+ years of experience building complex software systems and 2+ years focused on LLM orchestration, RAG, AI agents, local/on-premise models, and enterprise AI assistant platforms.
+Senior AI Architect and Full Stack Engineer with 8+ years of experience building complex software systems and 3+ years focused on LLM orchestration, RAG, AI agents, local/on-premise models, and enterprise AI assistant platforms.
 
 I specialize in building practical AI systems around real business workflows:
 - multi-agent orchestration
@@ -255,7 +255,7 @@ The project is used as a practical environment for local LLM research, Mac Studi
 
 ### Smart Publish
 
-- Dates: Aug 2023 - February 2025
+- Dates: May 2023 - February 2025
 - Associated with: BL Group R&D Center
 
 
