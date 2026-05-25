@@ -61,14 +61,14 @@ Open to remote full-time or contract roles as:
 
 ## Experience
 
-### Februrary 2025 - Now
+### February 2025 - Now
 
 - Title*: Lead AI Architect
 - Employment type: Full-time
 - Company or organization*: InterProCom
 - I am currently working in this role: True
-- Start date: Februrary 2025
-- Location: Tbisi, Georgia
+- Start date: February 2025
+- Location: Tbilisi, Georgia
 - Location type: Remote
 
 #### Description
@@ -117,11 +117,11 @@ Senior AI Architect / Lead AI Engineer | LLM Agents, RAG, Local & On-Prem AI
 
 
 - Title*: Founder & Lead AI Developer
-- Employment type: Self-employer
+- Employment type: Self-employed
 - Company or organization*: hAi
 - I am currently working in this role: [x]
 - Start date: 2024
-- Location: Tbisi, Georgia
+- Location: Tbilisi, Georgia
 - Location type: Remote
 
 #### Description
@@ -161,11 +161,11 @@ Senior AI Architect / Lead AI Engineer | LLM Agents, RAG, Local & On-Prem AI
 ### June 2022 - February 2025
 
 - Title*: Lead AI Engineer
-- Employment type: Full-tyme
+- Employment type: Full-time
 - Company or organization*: BL Group R&D Center
 - Start date: June 2022
 - End date: February 2025
-- Location: Tbisi, Georgia
+- Location: Tbilisi, Georgia
 - Location type: Remote
 
 #### Description
@@ -196,7 +196,7 @@ Tech stack: Python, FastAPI, OpenAI API, Telegram API, REST APIs, CMS integratio
 ### July 2018 - June 2022
 
 - Title*: Team Lead / Lead Software Engineer
-- Employment type: Full-tyme
+- Employment type: Full-time
 - Company or organization*: BL Group
 - Start date: July 2018
 - End date: June 2022
@@ -231,3 +231,161 @@ Tech stack: Python, Node.js, C++, Docker, PostgreSQL, LightGBM, GitLab CI/CD, Re
 - Geographic Information Systems (GIS)
 - DevLake
 - PostgreSQL
+
+## Projects
+
+### Axioma AI
+
+- Associated with: InterProCom
+- Dates: February 2025 - Present
+- URL: https://vitalykuzmin.github.io/portfolio/Axioma_AI.html
+
+#### Description
+
+Enterprise AI assistant platform for asset management workflows in the energy domain.
+
+Built a private AI layer around enterprise data, domain documentation, and internal APIs. The platform combines LangGraph-based multi-agent orchestration, domain RAG, SQL agents, norm-control workflows, local LLM infrastructure, observability, Docker-based deployment, and CI/CD.
+
+Business impact: reduced manual navigation across enterprise data and documentation by up to 50% in target workflows and expanded AI-assisted analytics with a broader set of enterprise data sources.
+
+#### Skills
+
+- Agentic AI Development
+- LangGraph
+- Retrieval-Augmented Generation (RAG)
+- SQL Agents
+- Local LLMs
+- LlamaIndex
+- Langfuse
+- FastAPI
+- PostgreSQL
+- Docker Products
+- Continuous Integration and Continuous Delivery (CI/CD)
+- DevOps
+- Context-Driven Development
+- Software Solution Architecture
+- Technical Leadership
+
+
+### hAi
+
+- Associated with: hAi
+- Dates: 2024 - Present
+- URL: https://vitalykuzmin.github.io/portfolio/hAi.html
+
+#### Description
+
+Local-first desktop AI assistant and personal R&D environment for AI agents, memory, voice interaction, local models, computer context, and tool use.
+
+Designed and built the system end-to-end: backend core, agent orchestration, MCP integrations, ActivityWatch-based computer activity context, SQLite/LanceDB memory, LiveKit voice layer, local/cloud model routing, and desktop assistant experiments.
+
+The project is used as a practical environment for local LLM research, Mac Studio inference optimization, AI coding assistants, agent UX, and personal automation. Public/open-source release planned.
+
+#### Skills
+
+- Agentic AI Development
+- Local LLMs
+- Model Context Protocol (MCP)
+- LangGraph
+- Python (Programming Language)
+- FastAPI
+- React.js
+- Electron.js
+- LiveKit
+- SQLite
+- LanceDB
+- Vector Databases
+- AI-Assisted Software Development
+- Software Architecture
+
+
+### Smart Publish
+
+- Associated with: BL Group R&D Center
+- Dates: June 2022 - February 2025
+- URL: https://vitalykuzmin.github.io/portfolio/Smart_Publish.html
+
+#### Description
+
+AI-assisted publishing platform for creating, adapting, reviewing, scheduling, and publishing content across websites and social platforms.
+
+Designed a structured LLM-powered publishing workflow: draft intake, context preparation, article generation, channel-specific adaptation, human review, regeneration loop, approval, scheduling, CMS publishing, and preparation for social media distribution.
+
+Business impact: reduced repetitive editorial preparation and formatting work by up to 60% and improved content consistency through platform-specific adaptation from a single source draft.
+
+#### Skills
+
+- Artificial Intelligence (AI)
+- Generative AI
+- Prompt Engineering
+- Python (Programming Language)
+- FastAPI
+- OpenAI API
+- REST APIs
+- Telegram API
+- Content Management Systems (CMS)
+- n8n
+- Software Solution Architecture
+- Product Development
+- Technical Leadership
+
+
+### Urban Lighting
+
+- Associated with: BL Group
+- Dates: July 2018 - June 2022
+- URL: https://vitalykuzmin.github.io/portfolio/Urban_Lighting.html
+
+#### Description
+
+Urban lighting data and ML platform for field inventory, mobile laboratory measurements, geospatial mapping, illuminance prediction, and reconstruction planning.
+
+Combined field inspection tools, mobile laboratory measurement processing, GPS/sensor data, maps, reusable datasets, LightGBM-based prediction, analytics, LED replacement recommendations, economic calculations, and tender preparation workflows.
+
+Business impact: accelerated field data collection and processing by up to 60%, reduced repeat city survey visits by up to 70%, and removed dependency on an external map-markup contractor.
+
+#### Skills
+
+- Machine Learning
+- LightGBM
+- Python (Programming Language)
+- Data Analysis
+- Geographic Information Systems (GIS)
+- PostgreSQL
+- Geospatial Data
+- Feature Engineering
+- C++
+- Node.js
+- Software Solution Architecture
+- Technical Leadership
+
+
+### Light in Night
+
+- Associated with: BL Group
+- Dates: July 2018 - June 2022
+- URL: https://vitalykuzmin.github.io/portfolio/Light-in-Night.html
+
+#### Description
+
+Professional desktop application for indoor and outdoor lighting calculation, design, and project preparation.
+
+Led the transformation of the product from a technical demo toward a managed product development process with requirements, specifications, GitLab issues, backlog, release planning, QA, metrics, logging, and coordinated engineering delivery.
+
+Managed and coordinated a 10+ person cross-functional team across C++, Python, frontend, DevOps, QA, UX/UI design, analytics, and product work.
+
+#### Skills
+
+- Technical Leadership
+- Team Leadership
+- Product Development
+- Software Solution Architecture
+- C++
+- Python (Programming Language)
+- Desktop Application Development
+- GitLab
+- Continuous Integration and Continuous Delivery (CI/CD)
+- QA Automation
+- Elasticsearch
+- Grafana
+- Agile Project Management

@@ -32,3 +32,4 @@ LinkedIn profile, outreach, and content workspace.
 - `letter.md` - prepared outreach message for recruiters, hiring managers, and relevant professional contacts.
 - `posts/` - drafts and ideas for future LinkedIn posts.
 - `strategy/` - notes and future strategy for growing and maintaining LinkedIn, based on useful videos and experiments.
+- [`LinkedIn_rules_and_strategy.md`](linkedin/strategy/LinkedIn_rules_and_strategy.md) - main LinkedIn strategy document. Use it as the primary reference for profile updates, outreach, posting, and general LinkedIn activity.
