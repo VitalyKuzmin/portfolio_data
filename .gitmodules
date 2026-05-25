@@ -1,0 +1,5 @@
+# docs
+[submodule "portfolio"]
+	path = portfolio
+	url = git@github.com:VitalyKuzmin/portfolio.git
+	group = portfolio
