@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"sensors_grp","type":"group","x":240,"y":-840,"width":600,"height":400,"color":"1","label":"Мобильная лобаратория"},
+		{"id":"desktop_grp","type":"group","x":-640,"y":-200,"width":600,"height":400,"color":"3","label":"Electron"},
+		{"id":"storage_grp","type":"group","x":240,"y":-200,"width":600,"height":400,"color":"2","label":"1С"},
+		{"id":"web_grp","type":"group","x":1160,"y":-200,"width":600,"height":400,"color":"4","label":"Визуализация (Web-портал)"},
+		{"id":"storage_text","type":"text","text":"**1. База данных 1С:Предприятие**\n- Master Data\n- Справочники улиц\n- Хранение массивов измерений\n\n**2. PHP Middleware**\n- Прокси-сервер для доступа к данным 1С","x":260,"y":-100,"width":560,"height":280},
+		{"id":"desktop_text","type":"text","text":"**Desktop-приложение (C++/MFC)**\n\n**Задачи:**\n1.  **Парсинг** логов\n2.  **Синхронизация** и интерполяция данных\n3.  **Фильтрация** шумов\n4.  **Экспорт** в 1С","x":-620,"y":-100,"width":560,"height":280},
+		{"id":"web_text","type":"text","text":"**Frontend (JavaScript)**\n\n- **Yandex Maps API**\n- Отрисовка треков\n- **Heatmap** (тепловая карта)\n- Кластеризация для оптимизации","x":1180,"y":-100,"width":560,"height":280},
+		{"id":"sensors_text","type":"text","text":"**Датчики:**\n- Люксметр (~100 Гц)\n- GPS-приемник (1 Гц)\n- Одометр\n\n**Выход:**\nСырые бинарные лог-файлы","x":350,"y":-760,"width":380,"height":240}
+	],
+	"edges":[
+		{"id":"e2","fromNode":"desktop_grp","fromSide":"right","toNode":"storage_grp","toSide":"left","fromEnd":"arrow","label":"COM / DLL"},
+		{"id":"e3","fromNode":"storage_grp","fromSide":"right","toNode":"web_grp","toSide":"left","label":"JSON / API"},
+		{"id":"678ba5a0a8a7c281","fromNode":"sensors_text","fromSide":"bottom","toNode":"storage_grp","toSide":"top","label":" zip (binary)"}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"grp_cloud","type":"group","x":-600,"y":-400,"width":1200,"height":600,"color":"1","label":"Cloud Infrastructure"},
+		{"id":"grp_edge","type":"group","x":-600,"y":400,"width":1200,"height":600,"color":"2","label":"Edge (On-site Greenhouse)"},
+		{"id":"cloud_portal","type":"text","text":"**Cloud Portal**\n\n- **Frontend:** Angular (Forked from Wiren Board UI)\n- **Backend:** Python (FastAPI/Django)\n- **Role:** RBAC, Device Registry, UI Proxy","x":-550,"y":-300,"width":500,"height":200,"color":"1"},
+		{"id":"cloud_telegram","type":"text","text":"**Telegram Bot**\n(Alerts)","x":700,"y":-200,"width":300,"height":100,"color":"4"},
+		{"id":"edge_controller","type":"text","text":"**Wiren Board Controller**\n\n- **OS:** Linux (Debian)\n- **Logic:** `wb-rules` (JS-like engine)\n- **Comms:** MQTT Broker (Mosquitto)\n- **Role:** Autonomous control of equipment","x":-550,"y":500,"width":500,"height":250,"color":"2"},
+		{"id":"edge_sensors","type":"text","text":"**Sensors & Actuators**\n(Lights, Pumps, Valves)\n\n- **Protocol:** Modbus","x":50,"y":750,"width":500,"height":150,"color":"2"},
+		{"id":"edge_camera","type":"text","text":"**IP Camera**\n\n- **Protocol:** RTSP stream","x":50,"y":500,"width":500,"height":150,"color":"2"},
+		{"id":"user_admin","type":"text","text":"**User / Admin**","x":-1200,"y":-200,"width":400,"height":100},
+		{"id":"cloud_db","type":"text","text":"**Database (PostgreSQL)**\n\n- Stores Users, Greenhouses, Device configs","x":50,"y":-40,"width":500,"height":150,"color":"1"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"user_admin","fromSide":"right","toNode":"cloud_portal","toSide":"left","label":"HTTPS"},
+		{"id":"e2","fromNode":"cloud_portal","fromSide":"bottom","toNode":"cloud_db","toSide":"left","label":"CRUD (SQL)"},
+		{"id":"e3","fromNode":"cloud_portal","fromSide":"right","toNode":"cloud_telegram","toSide":"left","label":"API Call"},
+		{"id":"e4","fromNode":"cloud_portal","fromSide":"bottom","toNode":"edge_controller","toSide":"top","label":"MQTT / WebSocket (Commands & Telemetry)"},
+		{"id":"e5","fromNode":"cloud_portal","fromSide":"bottom","toNode":"edge_camera","toSide":"top","label":"Video Stream Proxy (RTSP)"},
+		{"id":"e6","fromNode":"edge_controller","fromSide":"bottom","toNode":"edge_sensors","toSide":"left","label":"Modbus RTU"}
+	]
+}

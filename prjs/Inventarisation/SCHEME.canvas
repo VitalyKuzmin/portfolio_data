@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"desktop_grp","type":"group","x":-400,"y":540,"width":1400,"height":820,"color":"3","label":"АРМ Инженера (Аналитика и Управление)"},
+		{"id":"desktop_modules_grp","type":"group","x":-360,"y":920,"width":930,"height":360,"label":"Ключевые модули"},
+		{"id":"mobile_grp","type":"group","x":-1240,"y":-300,"width":600,"height":420,"color":"1","label":"Мобильный клиент (Сбор данных)"},
+		{"id":"backend_grp","type":"group","x":0,"y":-300,"width":600,"height":420,"color":"2","label":"Бэкенд и Хранилище"},
+		{"id":"external_grp","type":"group","x":1360,"y":600,"width":400,"height":200,"color":"4","label":"Внешние сервисы"},
+		{"id":"backend_text","type":"text","text":"**Стек:** 1С:Предприятие\n\n**Роль: Source of Truth**\n- Master Data Management (MDM)\n- Хранение справочников и данных\n- HTTP-сервисы (REST API) для клиентов\n- Прием данных с мобильных устройств","x":20,"y":-190,"width":560,"height":280},
+		{"id":"mobile_text","type":"text","text":"**Стек:** Android ( подрядчик по ТЗ)\n\n**Функции:**\n- Офлайн-режим (кэш карт и данных)\n- GPS/GLONASS для геопозиционирования\n- Фотофиксация и атрибутирование\n- Пакетная синхронизация данных","x":-1220,"y":-190,"width":560,"height":280},
+		{"id":"yandex_api","type":"text","text":"**Yandex Maps API**","x":1380,"y":640,"width":180,"height":60,"color":"4"},
+		{"id":"map_module","type":"text","text":"**1. Картографический модуль**\n- Интеграция с Yandex Maps API\n- **Кластеризация** для тысяч объектов\n- `ObjectManager` для оптимизации","x":-340,"y":980,"width":280,"height":280,"color":"3"},
+		{"id":"calc_module","type":"text","text":"**2. Модуль расчетов**\n- Расчет освещенности\n- **Проблема:** Рендеринг векторной графики (изолинии) поверх карты\n- **Решение:** Отрисовка на Canvas/SVG","x":-40,"y":980,"width":280,"height":280,"color":"3"},
+		{"id":"report_module","type":"text","text":"**3. Модуль отчетности**\n- Генерация PDF-паспортов\n- Сводные ведомости по ГОСТ","x":260,"y":980,"width":280,"height":280,"color":"3"},
+		{"id":"desktop_main","type":"text","text":"**Desktop Client (Electron)**\n\n**Стек:** Electron, Node.js, JS\n\n**Роль:** Валидация, проектирование, аналитика.","x":-340,"y":600,"width":400,"height":200,"color":"3"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"mobile_grp","fromSide":"right","toNode":"backend_grp","toSide":"left","label":"JSON / HTTPS (Синхронизация)"},
+		{"id":"e2","fromNode":"desktop_main","fromSide":"top","toNode":"backend_grp","toSide":"bottom","label":"REST API (Чтение/Запись)"},
+		{"id":"e3","fromNode":"desktop_modules_grp","fromSide":"right","toNode":"external_grp","toSide":"left","label":"JS API (Запрос карт)"}
+	]
+}

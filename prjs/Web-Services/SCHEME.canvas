@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"grp_microservices","type":"group","x":100,"y":-430,"width":1300,"height":830,"color":"2","label":"Microservices Cluster (Docker)"},
+		{"id":"grp_legacy","type":"group","x":-600,"y":20,"width":500,"height":380,"color":"1","label":"Legacy Monolith (Bitrix)"},
+		{"id":"calc_service","type":"text","text":"**1. Calculation Service**\n(Python + C++)","x":600,"y":-350,"width":270,"height":100,"color":"2"},
+		{"id":"project_service","type":"text","text":"**2. Project Manager Service**","x":600,"y":-150,"width":270,"height":100,"color":"2"},
+		{"id":"report_service","type":"text","text":"**3. PDF Report Service**","x":600,"y":50,"width":270,"height":100,"color":"2"},
+		{"id":"user","type":"text","text":"**User**\nПользователь / Менеджер","x":-500,"y":-860,"width":300,"height":100},
+		{"id":"api_gateway","type":"text","text":"**API Gateway**\n(Auth Middleware)","x":150,"y":-40,"width":300,"height":120,"color":"2"},
+		{"id":"bitrix","type":"text","text":"**Bitrix PHP**","x":-550,"y":50,"width":400,"height":100,"color":"1"},
+		{"id":"mysql","type":"text","text":"**MySQL DB**\n(Каталог товаров)","x":-550,"y":250,"width":400,"height":100,"color":"1"},
+		{"id":"nginx","type":"text","text":"**Nginx Gateway**","x":-450,"y":-480,"width":200,"height":100},
+		{"id":"sync_service","type":"text","text":"**4. Catalog Sync Service**","x":600,"y":250,"width":270,"height":100,"color":"2"},
+		{"id":"postgres","type":"text","text":"**PostgreSQL DB**\n(Проекты пользователей)","x":1040,"y":-150,"width":300,"height":100,"color":"2"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"user","fromSide":"bottom","toNode":"nginx","toSide":"top","label":"HTTPS"},
+		{"id":"e2","fromNode":"nginx","fromSide":"bottom","toNode":"bitrix","toSide":"top","label":"/catalog\n/about"},
+		{"id":"e3","fromNode":"bitrix","fromSide":"bottom","toNode":"mysql","toSide":"top","label":"R/W"},
+		{"id":"e4","fromNode":"nginx","fromSide":"right","toNode":"api_gateway","toSide":"left","label":"/api/v1/*"},
+		{"id":"e5","fromNode":"api_gateway","fromSide":"right","toNode":"calc_service","toSide":"left"},
+		{"id":"e6","fromNode":"api_gateway","fromSide":"right","toNode":"project_service","toSide":"left"},
+		{"id":"e7","fromNode":"api_gateway","fromSide":"right","toNode":"report_service","toSide":"left"},
+		{"id":"e8","fromNode":"api_gateway","fromSide":"right","toNode":"sync_service","toSide":"left"},
+		{"id":"e9","fromNode":"project_service","fromSide":"right","toNode":"postgres","toSide":"left","label":"R/W"},
+		{"id":"e10","fromNode":"sync_service","fromSide":"left","toNode":"mysql","toSide":"right","label":"Sync Data (Read)"}
+	]
+}

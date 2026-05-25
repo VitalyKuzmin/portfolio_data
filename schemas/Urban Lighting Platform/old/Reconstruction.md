@@ -2,7 +2,7 @@
 
 ### Reconstruction (ML module for street lighting reconstruction)
 
-A project that combines data from [**Inventory**](Inventarisation.md) and [**MSL Mapping**](MSL.Mapping.md) to create a "digital twin" of urban lighting. The goal is to predict street illuminance and automatically select optimal options for reconstruction.
+A project that combines data from [**Inventory**](schemas/Urban%20Lighting%20Platform/old/Inventarisation.md) and [**MSL Mapping**](schemas/Urban%20Lighting%20Platform/old/MSL.Mapping.md) to create a "digital twin" of urban lighting. The goal is to predict street illuminance and automatically select optimal options for reconstruction.
 
 **Task:**
 To develop a tool that would automatically:
