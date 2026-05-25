@@ -236,9 +236,8 @@ Tech stack: Python, Node.js, C++, Docker, PostgreSQL, LightGBM, GitLab CI/CD, Re
 
 ### Axioma AI
 
-- Associated with: InterProCom
 - Dates: February 2025 - Present
-- URL: https://vitalykuzmin.github.io/portfolio/Axioma_AI.html
+- Associated with: Lead AI Architect (InterProCom)
 
 #### Description
 
@@ -254,7 +253,8 @@ Business impact: reduced manual navigation across enterprise data and documentat
 - LangGraph
 - Retrieval-Augmented Generation (RAG)
 - SQL Agents
-- Local LLMs
+- vLLM
+- Ollama
 - LlamaIndex
 - Langfuse
 - FastAPI
@@ -269,9 +269,9 @@ Business impact: reduced manual navigation across enterprise data and documentat
 
 ### hAi
 
-- Associated with: hAi
 - Dates: 2024 - Present
-- URL: https://vitalykuzmin.github.io/portfolio/hAi.html
+- Associated with: hAi
+
 
 #### Description
 
@@ -301,9 +301,9 @@ The project is used as a practical environment for local LLM research, Mac Studi
 
 ### Smart Publish
 
-- Associated with: BL Group R&D Center
 - Dates: June 2022 - February 2025
-- URL: https://vitalykuzmin.github.io/portfolio/Smart_Publish.html
+- Associated with: BL Group R&D Center
+
 
 #### Description
 
@@ -332,9 +332,8 @@ Business impact: reduced repetitive editorial preparation and formatting work by
 
 ### Urban Lighting
 
-- Associated with: BL Group
 - Dates: July 2018 - June 2022
-- URL: https://vitalykuzmin.github.io/portfolio/Urban_Lighting.html
+- Associated with: BL Group
 
 #### Description
 
@@ -362,9 +361,9 @@ Business impact: accelerated field data collection and processing by up to 60%, 
 
 ### Light in Night
 
-- Associated with: BL Group
 - Dates: July 2018 - June 2022
-- URL: https://vitalykuzmin.github.io/portfolio/Light-in-Night.html
+- Associated with: BL Group
+
 
 #### Description
 
